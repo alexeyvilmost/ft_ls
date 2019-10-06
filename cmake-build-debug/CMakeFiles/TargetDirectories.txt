@@ -1,0 +1,3 @@
+/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/CMakeFiles/ft_ls.dir
+/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -58,8 +58,10 @@ t_files	*get_valid(t_input **raw, size_t *size, const char *flags, char *path)
 			temp = temp->next;
 			continue;
 		}
-		ret[i].flags = flags;
-		ret[i].path = ft_strjoinfree(path, ft_strjoin("/", temp->data->d_name), -1, 3);
+		ret[0].path[0] = '\0';
+		ft_strcat(ret[i].path, path);
+		ft_strcat(ret[i].path, "/");
+		ft_strcat(ret[i].path, temp->data->d_name);
 		stat(ret[i].path, ret[i].stat);
 		ret[i].dirent = *(temp->data);
 		temp = temp->next;
@@ -85,7 +87,7 @@ t_files	*sort_files(t_input **raw, size_t *size, const char *flags, char *path)
 		flag = 1;
 		j = 0;
 		while (++j < *size)
-			if (ft_strcmp(data[j - 1].dirent.d_name, data[j].dirent.d_name))
+			if (ft_strcmp(data[j - 1].dirent.d_name, data[j].dirent.d_name) > 0)
 			{
 				flag = 0;
 				temp = data[j - 1];
@@ -112,7 +114,8 @@ void	ft_ls(DIR *dir, char *path, const char *flags)
 	files = sort_files(&raw, &size, flags, path);
 	while (i < size)
 	{
-		ft_printf("%s  ", files[i].dirent.d_name);
+		write(1, files[i].dirent.d_name, ft_strlen(files[i].dirent.d_name));
+		write(1, " ", 1);
 		i++;
 	}
 }

@@ -5,6 +5,7 @@
 #ifndef FT_LS_H
 # define FT_LS_H
 
+# define PATH_MAX 4096
 # define EFLAG "ls: incorrect key - %c\n"
 # define EFILE "ls: don't have access to a %s: No file or directory match\n"
 
@@ -23,11 +24,10 @@ typedef struct			s_file
 {
 	struct dirent		dirent;
 	struct stat			*stat;
-	const char			*flags;
-	const char			*path;
+	char				path[PATH_MAX];
 }						t_files;
 
 void	common_sort(t_files *data, size_t size, _Bool (*comp)(t_files, t_files));
-void	comp(t_files *data, size_t size);
+void	comp(t_files *data, size_t size, const char *flags);
 
 # endif

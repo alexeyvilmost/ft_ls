@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/alexeyvilmost/Projects/ft_ls/comparators.c
+sys/stat.h
+-
+includes/ft_ls.h
+/home/alexeyvilmost/Projects/ft_ls/includes/ft_ls.h
+
+/home/alexeyvilmost/Projects/ft_ls/includes/ft_ls.h
 ../libft/libft.h
+/home/alexeyvilmost/Projects/ft_ls/libft/libft.h
+dirent.h
+-
+
+/home/alexeyvilmost/Projects/ft_ls/libft/libft.h
 stdlib.h
 -
 unistd.h
@@ -16,7 +28,15 @@ string.h
 stdarg.h
 -
 
-/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strjoin.c
-libft.h
-/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/libft.h
+/home/alexeyvilmost/Projects/ft_ls/ls_sort.c
+sys/stat.h
+-
+includes/ft_ls.h
+/home/alexeyvilmost/Projects/ft_ls/includes/ft_ls.h
+
+/home/alexeyvilmost/Projects/ft_ls/main.c
+sys/stat.h
+-
+includes/ft_ls.h
+/home/alexeyvilmost/Projects/ft_ls/includes/ft_ls.h
 

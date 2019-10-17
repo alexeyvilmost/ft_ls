@@ -8,346 +8,348 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug"/>
+				<Option working_dir="/Users/pallspic/Projects/ft_ls/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug"/>
+				<Option working_dir="/Users/pallspic/Projects/ft_ls/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ft_ls">
-				<Option output="/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/ft_ls" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/alexeyvilmost/Projects/ft_ls/libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_ls"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ft_ls/fast">
-				<Option output="/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/ft_ls" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/alexeyvilmost/Projects/ft_ls/libft"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_ls/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug"/>
+				<Option working_dir="/Users/pallspic/Projects/ft_ls/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alexeyvilmost/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_ls">
+				<Option output="/Users/pallspic/Projects/ft_ls/cmake-build-debug/ft_ls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pallspic/Projects/ft_ls/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/pallspic/Projects/ft_ls/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_ls"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_ls/fast">
+				<Option output="/Users/pallspic/Projects/ft_ls/cmake-build-debug/ft_ls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/pallspic/Projects/ft_ls/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/pallspic/Projects/ft_ls/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_ls/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/pallspic/Projects/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/comparators.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/comparators.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/includes/ft_ls.h">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/includes/ft_ls.h">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_atoi.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_atoi.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_bzero.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_bzero.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_isalnum.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_isalnum.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_isalpha.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_isalpha.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_isascii.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_isascii.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_isdigit.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_isdigit.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_isprint.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_isprint.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_isspace.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_isspace.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_itoa.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_itoa.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_lstadd.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_lstadd.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_lstdel.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_lstdel.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_lstdelone.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_lstdelone.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_lstiter.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_lstiter.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_lstmap.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_lstmap.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_lstnew.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_lstnew.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_memalloc.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_memalloc.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_memccpy.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_memccpy.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_memchr.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_memchr.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_memcmp.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_memcmp.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_memcpy.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_memcpy.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_memdel.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_memdel.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_memmove.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_memmove.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_memset.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_memset.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_putchar.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_putchar.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_putchar_fd.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_putchar_fd.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_putendl.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_putendl.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_putendl_fd.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_putendl_fd.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_putnbr.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_putnbr.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_putnbr_fd.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_putnbr_fd.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_putstr.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_putstr.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_putstr_fd.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_putstr_fd.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strcat.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strcat.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strchr.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strchr.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strclr.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strclr.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strcmp.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strcmp.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strcpy.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strcpy.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strdel.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strdel.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strdup.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strdup.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strequ.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strequ.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_striter.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_striter.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_striteri.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_striteri.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strjoin.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strjoin.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strlcat.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strlcat.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strlen.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strlen.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strmap.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strmap.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strmapi.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strmapi.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strncat.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strncat.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strncmp.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strncmp.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strncpy.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strncpy.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strnequ.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strnequ.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strnew.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strnew.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strnstr.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strnstr.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strrchr.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strrchr.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strsplit.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strsplit.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strstr.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strstr.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strsub.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strsub.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_strtrim.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_strtrim.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_tolower.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_tolower.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_base_funcs/ft_toupper.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_base_funcs/ft_toupper.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_abs.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_abs.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_get.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_get.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_islower.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_islower.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_isupper.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_isupper.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_itoa_base.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_itoa_base.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_max.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_max.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_memsetloc.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_memsetloc.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_nmult.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_nmult.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_nsize.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_nsize.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_pow.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_pow.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_strerase.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_strerase.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_strfchr.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_strfchr.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_strjoinfree.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_strjoinfree.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_extra_funcs/ft_strrev.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_extra_funcs/ft_strrev.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_long_math/ft_long.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_long_math/ft_long.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_long_math/ft_long_diff.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_long_math/ft_long_diff.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_long_math/ft_long_div.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_long_math/ft_long_div.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_long_math/ft_long_mult.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_long_math/ft_long_mult.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_long_math/ft_long_sum.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_long_math/ft_long_sum.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_long_math/ft_long_utils.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_long_math/ft_long_utils.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_long_math/ft_make_nline.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_long_math/ft_make_nline.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_printf/ft_printf.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_printf/ft_printf.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_printf/parsers.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_printf/parsers.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/ft_printf/utilities.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/ft_printf/utilities.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/get_next_line/get_next_line.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/get_next_line/get_next_line.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/libft/libft.h">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/libft/libft.h">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/ls_sort.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/ls_sort.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/main.c">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/main.c">
 			<Option target="ft_ls"/>
 		</Unit>
-		<Unit filename="/home/alexeyvilmost/Projects/ft_ls/CMakeLists.txt">
+		<Unit filename="/Users/pallspic/Projects/ft_ls/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

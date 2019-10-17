@@ -1,4 +1,5 @@
 #include <sys/stat.h>
+#include <stdio.h>
 #include "includes/ft_ls.h"
 
 char 	*ls_get_flags(int ac, char **av, size_t *last)
@@ -24,7 +25,7 @@ char 	*ls_get_flags(int ac, char **av, size_t *last)
 	return (ft_strdup(flags));
 }
 
-t_input	*get_files(DIR *dir, size_t *size)
+t_input	*get_files(DIR *dir, size_t *size, size_t *max_len)
 {
 	t_input *ret;
 	t_input *temp;
@@ -33,6 +34,8 @@ t_input	*get_files(DIR *dir, size_t *size)
 	temp = ret;
 	while ((temp->data = readdir(dir)) != NULL)
 	{
+		if (ft_strlen(temp->data->d_name) > *max_len)
+			*max_len = ft_strlen(temp->data->d_name);
 		temp->next = ft_memalloc(sizeof(t_input));
 		temp = temp->next;
 		(*size)++;
@@ -81,23 +84,7 @@ t_files	*sort_files(t_input **raw, size_t *size, const char *flags, char *path)
 	size_t	i;
 	size_t	j;
 
-	i = 0;
-	while (i++ < *size)
-	{
-		flag = 1;
-		j = 0;
-		while (++j < *size)
-			if (ft_strcmp(data[j - 1].dirent.d_name, data[j].dirent.d_name) > 0)
-			{
-				flag = 0;
-				temp = data[j - 1];
-				data[j - 1] = data[j];
-				data[j] = temp;
-			}
-		if (flag)
-			break ;
-	}
-//	comp(ret, *size);
+	comp(data, *size, flags);
 	return data;
 }
 
@@ -105,17 +92,19 @@ void	ft_ls(DIR *dir, char *path, const char *flags)
 {
 	size_t 	i;
 	size_t	size;
+	size_t	max_len;
 	t_input	*raw;
 	t_files	*files;
 
 	i = 0;
 	size = 0;
-	raw = get_files(dir, &size);
+	max_len = 0;
+	raw = get_files(dir, &size, &max_len);
+	max_len += (8 - (max_len + 2) % 8) + 2;
 	files = sort_files(&raw, &size, flags, path);
 	while (i < size)
 	{
-		write(1, files[i].dirent.d_name, ft_strlen(files[i].dirent.d_name));
-		write(1, " ", 1);
+		printf("%-*s", max_len, files[i].dirent.d_name);
 		i++;
 	}
 }
@@ -139,6 +128,9 @@ int     main(int ac, char **av)
 			ft_printf("%s:\n", av[last]);
 		ft_ls(curr, av[last], flags);
 		closedir(curr);
+		last++;
+		ft_printf("\n");
+		(prefix && last < ac) ? ft_printf("\n") : NULL;
 	}
 	if (ac == 1)
 	{

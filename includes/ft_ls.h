@@ -23,7 +23,7 @@ typedef struct			s_rawdata
 typedef struct			s_file
 {
 	struct dirent		dirent;
-	struct stat			*stat;
+	struct stat			stat;
 	char				path[PATH_MAX];
 }						t_files;
 

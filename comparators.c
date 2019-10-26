@@ -7,37 +7,50 @@
 
 static _Bool	default_comparator(t_files a, t_files b)
 {
-	return ft_strcmp(a.dirent.d_name, b.dirent.d_name);
+	int i;
+	char c1;
+	char c2;
+
+	i = 0;
+	while (a.dirent.d_name[i] == b.dirent.d_name[i])
+		i++;
+	c1 = a.dirent.d_name[i];
+	c2 = b.dirent.d_name[i];
+	if (ft_isupper(c1) && ft_islower(c2))
+		return (FALSE);
+	if (ft_islower(c1) && ft_isupper(c2))
+		return (TRUE);
+	return (c1 > c2);
 }
 
 static _Bool	rdefault_comparator(t_files a, t_files b)
 {
 	return !default_comparator(a, b);
 }
-/*
+
 static _Bool	time_comparator(t_files a, t_files b)
 {
-	return a.stat->st_ctim.tv_sec > b.stat->st_ctim.tv_sec;
+	return a.stat.st_ctimespec.tv_sec > b.stat.st_ctimespec.tv_sec;
 }
 
 static _Bool	rtime_comparator(t_files a, t_files b)
 {
 	return !time_comparator(a, b);
 }
-*/
+
 void	comp(t_files *data, size_t size, const char *flags)
 {
-	if (flags)
+	if (!flags)
 		return common_sort(data, size, default_comparator);
-/*	if (ft_strchr(data[0].flags, 't'))
+	if (ft_strchr(flags, 't'))
 	{
-		if (ft_strchr(data[0].flags, 'r'))
+		if (ft_strchr(flags, 'r'))
 			return common_sort(data, size, rtime_comparator);
 		else
 			return common_sort(data, size, time_comparator);
 	}
-	else */
-	if (ft_strchr(flags, 'r'))
+	else
+	if (strchr(flags, 'r'))
 		return common_sort(data, size, rdefault_comparator);
 	else
 		return common_sort(data, size, default_comparator);

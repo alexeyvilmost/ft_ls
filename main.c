@@ -65,7 +65,7 @@ t_files	*get_valid(t_input **raw, size_t *size, const char *flags, char *path)
 		ft_strcat(ret[i].path, path);
 		ft_strcat(ret[i].path, "/");
 		ft_strcat(ret[i].path, temp->data->d_name);
-		stat(ret[i].path, ret[i].stat);
+		lstat(ret[i].path, &ret[i].stat);
 		ret[i].dirent = *(temp->data);
 		temp = temp->next;
 		i++;
@@ -81,8 +81,8 @@ t_files	*sort_files(t_input **raw, size_t *size, const char *flags, char *path)
 	data = get_valid(raw, size, flags, path);
 	_Bool			flag;
 	t_files			temp;
-	size_t	i;
-	size_t	j;
+	size_t			i;
+	size_t			j;
 
 	comp(data, *size, flags);
 	return data;
@@ -104,9 +104,11 @@ void	ft_ls(DIR *dir, char *path, const char *flags)
 	files = sort_files(&raw, &size, flags, path);
 	while (i < size)
 	{
-		printf("%-*s", max_len, files[i].dirent.d_name);
+		ft_printf("%-*s", (int)max_len, files[i].dirent.d_name);
 		i++;
 	}
+	free(raw);
+	free(files);
 }
 
 int     main(int ac, char **av)
@@ -120,6 +122,13 @@ int     main(int ac, char **av)
 	flags = ls_get_flags(ac, av, &last);
 
 	prefix = (last < ac - 1);
+	if (last == ac) // TODO: incorrect condition
+	{
+		curr = opendir(".");
+		ft_ls(curr, ".", flags);
+		closedir(curr);
+		ft_printf("\n");
+	}
 	while (last < ac)
 	{
 		if ((curr = opendir(av[last])) == NULL && ft_printf(EFILE, av[last]))
@@ -130,27 +139,10 @@ int     main(int ac, char **av)
 		closedir(curr);
 		last++;
 		ft_printf("\n");
-		(prefix && last < ac) ? ft_printf("\n") : NULL;
-	}
-	if (ac == 1)
-	{
-		curr = opendir(".");
-		ft_ls(curr, ".", NULL);
-		closedir(curr);
+		if (prefix && last < ac)
+			ft_printf("\n");
 	}
 	free(flags);
 
-    /*
-	while (files = readdir(curr))
-	{
-		if (files->d_type == 4)
-			ft_printf("%s/  ", files->d_name);
-		else
-			ft_printf("%s  ", files->d_name);
-	}
-
-	ft_printf("\n");
-	closedir(curr);
-	*/
     return (0);
 }

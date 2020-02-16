@@ -91,6 +91,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/pallspic/Projects/ft_ls/libft/get_next_line/get_next_line.c" "/Users/pallspic/Projects/ft_ls/cmake-build-debug/CMakeFiles/ft_ls.dir/libft/get_next_line/get_next_line.c.o"
   "/Users/pallspic/Projects/ft_ls/ls_sort.c" "/Users/pallspic/Projects/ft_ls/cmake-build-debug/CMakeFiles/ft_ls.dir/ls_sort.c.o"
   "/Users/pallspic/Projects/ft_ls/main.c" "/Users/pallspic/Projects/ft_ls/cmake-build-debug/CMakeFiles/ft_ls.dir/main.c.o"
+  "/Users/pallspic/Projects/ft_ls/print.c" "/Users/pallspic/Projects/ft_ls/cmake-build-debug/CMakeFiles/ft_ls.dir/print.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

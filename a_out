@@ -1,0 +1,14 @@
+-rw-r--r--  1 pallspic  2019   3618 Oct 26 12:11 CMakeLists.txt
+-rw-r--r--  1 pallspic  2019    103 Oct 26 12:11 README.md
+-rwxr-xr-x  1 pallspic  2019  37012 Feb 15 22:18 a.out
+-rw-r--r--  1 pallspic  2019      0 Feb 15 22:19 a_out
+drwxr-xr-x  9 pallspic  2019    306 Feb 15 22:18 cmake-build-debug
+-rw-r--r--  1 pallspic  2019   1192 Feb 15 19:31 comparators.c
+drwxr-xr-x 10 pallspic  2019    340 Oct 26 12:11 examples
+-rwxr-xr-x  1 pallspic  2019  36684 Oct 26 14:09 ft_ls
+drwxr-xr-x  4 pallspic  2019    136 Feb 15 21:37 includes
+drwxr-xr-x 12 pallspic  2019    408 Oct 26 12:11 libft
+-rw-r--r--  1 pallspic  2019    727 Feb 15 22:13 ls_out
+-rw-r--r--  1 pallspic  2019    465 Oct 26 12:11 ls_sort.c
+-rw-r--r--  1 pallspic  2019   4691 Feb 15 22:18 main.c
+

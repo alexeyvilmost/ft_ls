@@ -349,6 +349,9 @@
 		<Unit filename="/Users/pallspic/Projects/ft_ls/main.c">
 			<Option target="ft_ls"/>
 		</Unit>
+		<Unit filename="/Users/pallspic/Projects/ft_ls/print.c">
+			<Option target="ft_ls"/>
+		</Unit>
 		<Unit filename="/Users/pallspic/Projects/ft_ls/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -257,3 +257,7 @@ CMakeFiles/ft_ls.dir/main.c.o: ../includes/ft_ls.h
 CMakeFiles/ft_ls.dir/main.c.o: ../libft/libft.h
 CMakeFiles/ft_ls.dir/main.c.o: ../main.c
 
+CMakeFiles/ft_ls.dir/print.c.o: ../includes/ft_ls.h
+CMakeFiles/ft_ls.dir/print.c.o: ../libft/libft.h
+CMakeFiles/ft_ls.dir/print.c.o: ../print.c
+

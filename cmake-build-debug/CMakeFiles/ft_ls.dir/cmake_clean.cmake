@@ -86,6 +86,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_ls.dir/main.c.o"
   "CMakeFiles/ft_ls.dir/ls_sort.c.o"
   "CMakeFiles/ft_ls.dir/comparators.c.o"
+  "CMakeFiles/ft_ls.dir/print.c.o"
   "ft_ls.pdb"
   "ft_ls"
 )

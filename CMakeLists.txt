@@ -90,4 +90,4 @@ add_executable(ft_ls
         libft/ft_printf/parsers.c
         libft/ft_printf/utilities.c
         libft/get_next_line/get_next_line.c
-        libft/libft.h main.c includes/ft_ls.h ls_sort.c comparators.c)
+        libft/libft.h main.c includes/ft_ls.h ls_sort.c comparators.c print.c)

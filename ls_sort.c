@@ -28,3 +28,74 @@ void	common_sort(t_files *data, size_t size, _Bool (*comp)(t_files, t_files))
 			break ;
 	}
 }
+
+void	get_path(char full_path[PATH_MAX], char *path, char* filename)
+{
+	int i;
+
+	i = 0;
+//	ft_printf("Raw: %s\n", filename);
+	while (path[i] && i < PATH_MAX)
+	{
+		full_path[i] = path[i];
+		i++;
+	}
+	full_path[i++] = '/';
+	while (*filename && i < PATH_MAX)
+		full_path[i++] = *filename++;
+//	ft_printf("Add: %s\n", full_path);
+}
+
+t_files	*get_valid(t_input **raw, size_t *size, const char *flags, char *path)
+{
+	t_input	*temp;
+	t_files	*ret;
+	size_t 	i;
+
+	i = 0;
+	ret = ft_memalloc(sizeof(t_files) * *size);
+	if (!ret)
+		return NULL;
+	temp = *raw;
+
+	while (temp->data && ret)
+	{
+		if (temp->data->d_name[0] == '.' && (!flags || !ft_strchr(flags, 'a')))
+		{
+			temp = temp->next;
+			continue;
+		}
+//		ft_printf("Pre: %s\n", temp->data->d_name);
+		get_path(ret[i].path, path, temp->data->d_name);
+		lstat(ret[i].path, &ret[i].stat);
+		ret[i].dirent = *(temp->data);
+		temp = temp->next;
+		i++;
+	}
+	*size = i;
+	return (ret);
+}
+
+void		free_raw(t_input *raw)
+{
+	if (raw->next)
+		free_raw(raw->next);
+	free(raw);
+}
+
+t_files	*sort_files(t_input *raw, size_t *size, const char *flags, char *path)
+{
+	t_files	*data;
+	t_input *temp;
+
+	temp = raw;
+	while (temp->data)
+	{
+//		ft_printf("Pre-pre: %s\n", temp->data->d_name);
+		temp = temp->next;
+	}
+	data = get_valid(&raw, size, flags, path);
+	comp(data, *size, flags);
+	free_raw(raw);
+	return data;
+}

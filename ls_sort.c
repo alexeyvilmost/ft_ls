@@ -46,33 +46,27 @@ void	get_path(char full_path[PATH_MAX], char *path, char* filename)
 //	ft_printf("Add: %s\n", full_path);
 }
 
-t_files	*get_valid(t_input **raw, size_t *size, const char *flags, char *path)
+t_files	*get_valid(DIR *dir, size_t size, const char *flags, char *path)
 {
-	t_input	*temp;
-	t_files	*ret;
-	size_t 	i;
+	const _Bool		a_param = ft_strchr(flags, 'a');
+	struct dirent	*temp;
+	t_files			*ret;
+	size_t 			i;
 
 	i = 0;
-	ret = ft_memalloc(sizeof(t_files) * *size);
+	ret = ft_memalloc(sizeof(t_files) * size);
 	if (!ret)
 		return NULL;
-	temp = *raw;
 
-	while (temp->data && ret)
+	while ((temp = readdir(dir)))
 	{
-		if (temp->data->d_name[0] == '.' && (!flags || !ft_strchr(flags, 'a')))
-		{
-			temp = temp->next;
+		if (temp->d_name[0] == '.' && !a_param)
 			continue;
-		}
 //		ft_printf("Pre: %s\n", temp->data->d_name);
-		get_path(ret[i].path, path, temp->data->d_name);
+		get_path(ret[i].path, path, temp->d_name);
 		lstat(ret[i].path, &ret[i].stat);
-		ret[i].dirent = *(temp->data);
-		temp = temp->next;
-		i++;
+		ret[i++].dirent = *temp;
 	}
-	*size = i;
 	return (ret);
 }
 
@@ -83,19 +77,17 @@ void		free_raw(t_input *raw)
 	free(raw);
 }
 
-t_files	*sort_files(t_input *raw, size_t *size, const char *flags, char *path)
+t_files	*sort_files(DIR *dir, size_t size, const char *flags, char *path)
 {
 	t_files	*data;
-	t_input *temp;
-
-	temp = raw;
-	while (temp->data)
-	{
+//
+//	temp = raw;
+//	while (temp->data)
+//	{
 //		ft_printf("Pre-pre: %s\n", temp->data->d_name);
-		temp = temp->next;
-	}
-	data = get_valid(&raw, size, flags, path);
-	comp(data, *size, flags);
-	free_raw(raw);
+//		temp = temp->next;
+//	}
+	data = get_valid(dir, size, flags, path);
+	comp(data, size, flags);
 	return data;
 }

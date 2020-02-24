@@ -30,9 +30,9 @@ static _Bool	rdefault_comparator(t_files a, t_files b)
 
 static _Bool	time_comparator(t_files a, t_files b)
 {
-	if (a.stat.st_ctimespec.tv_sec == b.stat.st_ctimespec.tv_sec)
+	if (a.stat.st_mtimespec.tv_sec == b.stat.st_mtimespec.tv_sec)
 		return default_comparator(a, b);
-	return a.stat.st_ctimespec.tv_sec < b.stat.st_ctimespec.tv_sec;
+	return a.stat.st_mtimespec.tv_sec < b.stat.st_mtimespec.tv_sec;
 }
 
 static _Bool	rtime_comparator(t_files a, t_files b)

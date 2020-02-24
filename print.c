@@ -61,8 +61,9 @@ t_dir	get_maxes(t_files *files, size_t size)
 		result.maxgroup = MAX(result.maxgroup,
 							  ft_strlen(getgrgid(curr->st_gid)->gr_name));
 		result.maxblock = MAX(result.maxblock, (size_t)ft_nsize(curr->st_size));
-		result.total += files[i].stat.st_blocks;
-		result.maxname = MAX(result.maxname, ft_strlen(files[i++].path));
+		result.total += curr->st_blocks;
+		result.maxname = MAX(result.maxname, ft_strlen(files[i].path));
+		i++;
 	}
 	result.maxname += (8 - (result.maxname + 2) % 8) + 2;
 	return result;

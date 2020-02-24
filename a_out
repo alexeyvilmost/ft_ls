@@ -1,14 +1,332 @@
--rw-r--r--  1 pallspic  2019   3618 Oct 26 12:11 CMakeLists.txt
--rw-r--r--  1 pallspic  2019    103 Oct 26 12:11 README.md
--rwxr-xr-x  1 pallspic  2019  37012 Feb 15 22:18 a.out
--rw-r--r--  1 pallspic  2019      0 Feb 15 22:19 a_out
-drwxr-xr-x  9 pallspic  2019    306 Feb 15 22:18 cmake-build-debug
--rw-r--r--  1 pallspic  2019   1192 Feb 15 19:31 comparators.c
-drwxr-xr-x 10 pallspic  2019    340 Oct 26 12:11 examples
--rwxr-xr-x  1 pallspic  2019  36684 Oct 26 14:09 ft_ls
-drwxr-xr-x  4 pallspic  2019    136 Feb 15 21:37 includes
-drwxr-xr-x 12 pallspic  2019    408 Oct 26 12:11 libft
--rw-r--r--  1 pallspic  2019    727 Feb 15 22:13 ls_out
--rw-r--r--  1 pallspic  2019    465 Oct 26 12:11 ls_sort.c
--rw-r--r--  1 pallspic  2019   4691 Feb 15 22:18 main.c
+total 168
+drwxr-xr-x   2 pallspic  2019      68 Feb 25 13:09 .cocoapods.42_cache_bak_20190228160229
+drwx------   3 pallspic  2019     102 Feb 25 13:13 Movies
+drwx------   4 pallspic  2019     136 Feb 25 13:14 Applications
+d-wx-wx-wx   4 root      wheel    136 Feb 25 13:51 .TemporaryItems
+drwxr-xr-x   2 pallspic  2019      68 Feb 25 19:35 ..dot
+drwxr-xr-x   3 pallspic  2019     102 Feb 27 14:34 .emacs.d
+-rw-r--r--   1 pallspic  2019    1963 Feb 27 15:53 .emacs
+-rw-r--r--   1 pallspic  2019      20 Feb 27 18:30 .gitignore
+drwxr-xr-x   2 pallspic  2019      68 Feb 28 22:26 .cocoapods.42_cache_bak_20190302191848
+drwxr-xr-x   2 pallspic  2019      68 Mar  2 20:26 .cocoapods.42_cache_bak_20190304173715
+drwxr-xr-x   2 pallspic  2019      68 Mar  4 17:40 .cocoapods.42_cache_bak_20190306063940
+drwxr-xr-x   2 pallspic  2019      68 Mar  6 06:43 .cocoapods.42_cache_bak_20190306134600
+drwxr-xr-x   2 pallspic  2019      68 Mar  6 18:53 .cocoapods.42_cache_bak_20190308150220
+drwxr-xr-x   2 pallspic  2019      68 Mar  8 16:01 .cocoapods.42_cache_bak_20190310130333
+drwxr-xr-x   2 pallspic  2019      68 Mar 10 22:39 .cocoapods.42_cache_bak_20190311193732
+drwxr-xr-x   2 pallspic  2019      68 Mar 11 22:36 .cocoapods.42_cache_bak_20190312113625
+drwxr-xr-x   2 pallspic  2019      68 Mar 12 12:49 .cocoapods.42_cache_bak_20190313135907
+drwxr-xr-x   2 pallspic  2019      68 Mar 13 22:34 .cocoapods.42_cache_bak_20190315223020
+drwxr-xr-x   2 pallspic  2019      68 Mar 15 22:44 .cocoapods.42_cache_bak_20190317122642
+drwxr-xr-x   3 pallspic  2019     102 Mar 17 02:28 .vscode
+drwxr-xr-x   2 pallspic  2019      68 Mar 17 22:02 .cocoapods.42_cache_bak_20190321172600
+drwxr-xr-x   2 pallspic  2019      68 Mar 21 18:13 .cocoapods.42_cache_bak_20190401200539
+drwxr-xr-x   2 pallspic  2019      68 Apr  1 20:12 .cocoapods.42_cache_bak_20190409203448
+-rw-r--r--   1 pallspic  2019      14 Apr  2 16:32 .vimrc
+drwxr-xr-x   2 pallspic  2019      68 Apr 10 00:09 .cocoapods.42_cache_bak_20190701191807
+drwxr-xr-x   3 pallspic  2019     102 Apr 24 21:45 .mono
+drwxr-xr-x   3 pallspic  2019     102 Apr 28 05:50 .oracle_jre_usage
+-rw-r--r--   1 pallspic  2019      55 Apr 28 06:03 .zshrc
+-rw-r--r--   1 pallspic  2019     679 Apr 28 06:03 .brew_fix.zsh
+drwxr-xr-x  29 pallspic  2019     986 Apr 28 06:39 .brew
+drwx------   4 pallspic  2019     136 Jun 30 16:36 .lldb
+drwxr-xr-x   2 pallspic  2019      68 Jul  1 20:00 .cocoapods.42_cache_bak_20190705173543
+-rw-------   1 pallspic  2019    1024 Jul  4 20:43 .rnd
+-rw-r--r--   1 pallspic  2019     158 Jul  5 21:47 .gitconfig
+drwxr-xr-x   2 pallspic  2019      68 Jul  5 22:01 .cocoapods.42_cache_bak_20190707191415
+drwxr-xr-x   2 pallspic  2019      68 Jul  8 10:42 .cocoapods.42_cache_bak_20190708135220
+drwxr-xr-x   2 pallspic  2019      68 Jul  8 14:12 .cocoapods.42_cache_bak_20190708191014
+drwxr-xr-x   2 pallspic  2019      68 Jul  8 20:56 .cocoapods.42_cache_bak_20190709115523
+drwxr-xr-x   2 pallspic  2019      68 Jul  9 13:27 .cocoapods.42_cache_bak_20190709193115
+drwxr-xr-x   2 pallspic  2019      68 Jul  9 21:50 .cocoapods.42_cache_bak_20190711190037
+drwxr-xr-x   2 pallspic  2019      68 Jul 11 19:04 .cocoapods.42_cache_bak_20190713135859
+drwxr-xr-x   2 pallspic  2019      68 Jul 13 17:13 .cocoapods.42_cache_bak_20190718143734
+drwxr-xr-x   2 pallspic  2019      68 Jul 18 14:38 .cocoapods.42_cache_bak_20190720160351
+drwxr-xr-x   2 pallspic  2019      68 Jul 20 16:34 .cocoapods.42_cache_bak_20190723173953
+drwxr-xr-x   2 pallspic  2019      68 Jul 23 21:23 .cocoapods.42_cache_bak_20190724152532
+drwxr-xr-x   2 pallspic  2019      68 Jul 24 18:25 .vscode-cpptools
+drwxr-xr-x   2 pallspic  2019      68 Jul 24 21:19 .cocoapods.42_cache_bak_20190725171514
+drwxr-xr-x   2 pallspic  2019      68 Jul 25 17:16 .cocoapods.42_cache_bak_20190801160855
+drwx------   4 pallspic  2019     136 Jul 31 09:58 .yandex
+drwxr-xr-x   2 pallspic  2019      68 Aug  1 16:11 .cocoapods.42_cache_bak_20190809225947
+drwxr-xr-x   2 pallspic  2019      68 Aug 10 02:42 .cocoapods.42_cache_bak_20190810060148
+drwxr-xr-x   2 pallspic  2019      68 Aug 10 08:54 .cocoapods.42_cache_bak_20190829145313
+-r--------   1 pallspic  2019       7 Aug 10 08:55 .CFUserTextEncoding
+drwx------   4 pallspic  2019     136 Aug 23 20:31 Music
+drwxr-xr-x  54 pallspic  2019    1836 Aug 26 02:53 Tests
+lrwxr-xr-x   1 pallspic  2019      34 Aug 29 11:16 goinfre -> /Volumes/Storage/goinfre/pallspic/n
+-rwxrwxrwx   1 pallspic  2019     132 Aug 29 11:36 .bash_profile
+drwxr-xr-x   2 pallspic  2019      68 Aug 29 17:46 .cocoapods.42_cache_bak_20190905135325
+-rwx------   1 pallspic  2019      18 Aug 29 18:18 .a
+drwx------   2 pallspic  2019      68 Sep  1 15:13 Pictures
+drwxr-xr-x   2 pallspic  2019      68 Sep  5 16:05 .cocoapods.42_cache_bak_20190908160708
+drwxr-xr-x   2 pallspic  2019      68 Sep  8 19:50 .cocoapods.42_cache_bak_20190919201603
+drwxr-xr-x  13 pallspic  2019     442 Sep 20 00:39 .git
+drwxr-xr-x   3 pallspic  2019     102 Sep 20 01:32 .vim
+drwxr-xr-x   2 pallspic  2019      68 Sep 20 06:37 .cocoapods.42_cache_bak
+drwxr-xr-x   3 pallspic  2019     102 Oct  9 16:01 VirtualBox VMs
+drwx------   3 pallspic  2019     102 Oct  9 16:14 .ssh
+-rwxrwxrwx   1 pallspic  2019     466 Oct  9 17:01 start.sh
+drwxr-xr-x   5 pallspic  2019     170 Oct 26 12:12 Projects
+-rw-r--r--   1 pallspic  2019   14340 Oct 26 13:22 .DS_Store
+drwxr-xr-x  12 pallspic  2019     408 Oct 26 13:48 42-ft_ls
+drwxr-xr-x  19 pallspic  2019     646 Oct 26 14:14 new
+drwx------   5 pallspic  2019     170 Oct 26 15:10 Documents
+drwx------  68 pallspic  2019    2312 Jan 22 11:33 .Trash
+drwxr-xr-x   6 pallspic  2019     204 Jan 22 17:15 Review
+drwxr-xr-x  11 pallspic  2019     374 Feb 16 01:00 Fractol
+drwxr-xr-x  14 pallspic  2019     476 Feb 16 03:20 pallspic2
+-rw-r--r--   1 pallspic  2019   14464 Feb 16 07:03 .viminfo
+drwx------  45 root      2019    1530 Feb 16 07:48 .fseventsd
+drwxr-xr-x  98 root      admin   3332 Feb 24 16:11 ..
+d--x--x--x   9 root      wheel    306 Feb 24 16:11 .DocumentRevisions-V100
+drwxr-xr-x  54 pallspic  2019    1836 Feb 24 16:12 Library
+lrwxr-xr-x   1 pallspic  2019      42 Feb 24 16:12 .cocoapods -> /Volumes/Storage/cache/pallspic/.cocoapods
+drwxr-xr-x  88 pallspic  2019    3060 Feb 24 16:12 .
+drwxrwxrwx  10 pallspic  2019     340 Feb 24 16:13 Downloads
+drwxr-xr-x  12 pallspic  2019     408 Feb 24 17:44 Desktop
 
+/Users/pallspic//.cocoapods.42_cache_bak_20190228160229:
+total 0
+drwxr-xr-x   2 pallspic  2019    68 Feb 25 13:09 .
+drwxr-xr-x  88 pallspic  2019  3060 Feb 24 16:12 ..
+
+/Users/pallspic//Movies:
+total 0
+-rw-r--r--   1 pallspic  2019     0 Feb 25 13:13 .localized
+drwx------   3 pallspic  2019   102 Feb 25 13:13 .
+drwxr-xr-x  88 pallspic  2019  3060 Feb 24 16:12 ..
+
+/Users/pallspic//Applications:
+total 0
+-rw-r--r--   1 pallspic  2019     0 Feb 25 13:14 .localized
+drwx------   4 pallspic  2019   136 Feb 25 13:14 .
+drwxr-xr-x  88 pallspic  2019  3060 Feb 24 16:12 ..
+drwx------  10 pallspic  2019   340 Feb 24 16:13 Chrome Apps.localized
+
+/Users/pallspic//Applications/Chrome Apps.localized:
+total 640
+drwx------   4 pallspic  2019  136 Feb 25 13:14 ..
+drwx------   5 pallspic  2019  170 Feb 24 16:13 .localized
+-rw-r--r--   1 pallspic  2019    0 Feb 24 16:13 Icon
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 Floating for YouTube™.app
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 Floating for YouTube™ 5.app
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 Floating for YouTube™ 4.app
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 Floating for YouTube™ 3.app
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 Floating for YouTube™ 2.app
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 Default jjphmlaoffndcnecccgemfdaaoighkel.app
+drwx------  10 pallspic  2019  340 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/.localized:
+total 24
+-rw-r--r--   1 pallspic  2019  258 Mar 13 14:42 ru.strings
+-rw-r--r--   1 pallspic  2019  242 Jul  1 19:20 en_GB.strings
+-rw-r--r--   1 pallspic  2019  242 Feb 24 16:13 en_US.strings
+drwx------   5 pallspic  2019  170 Feb 24 16:13 .
+drwx------  10 pallspic  2019  340 Feb 24 16:13 ..
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™.app:
+total 0
+drwxr-xr-x   6 pallspic  2019  204 Feb 24 16:13 Contents
+drwx------  10 pallspic  2019  340 Feb 24 16:13 ..
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™.app/Contents:
+total 16
+drwx------  4 pallspic  2019   136 Feb 24 16:13 Resources
+-rw-r--r--  1 pallspic  2019     8 Feb 24 16:13 PkgInfo
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 MacOS
+-rw-r--r--  1 pallspic  2019  2077 Feb 24 16:13 Info.plist
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 ..
+drwxr-xr-x  6 pallspic  2019   204 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™.app/Contents/Resources:
+total 64
+drwx------  3 pallspic  2019    102 Feb 24 16:13 en.lproj
+-rw-r--r--  1 pallspic  2019  28988 Feb 24 16:13 app.icns
+drwxr-xr-x  6 pallspic  2019    204 Feb 24 16:13 ..
+drwx------  4 pallspic  2019    136 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™.app/Contents/Resources/en.lproj:
+total 8
+-rw-r--r--  1 pallspic  2019  329 Feb 24 16:13 InfoPlist.strings
+drwx------  4 pallspic  2019  136 Feb 24 16:13 ..
+drwx------  3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™.app/Contents/MacOS:
+total 1128
+-rwxr-xr-x  1 pallspic  2019  577072 Feb 24 16:13 app_mode_loader
+drwxr-xr-x  6 pallspic  2019     204 Feb 24 16:13 ..
+drwxr-xr-x  3 pallspic  2019     102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 5.app:
+total 0
+drwxr-xr-x   6 pallspic  2019  204 Feb 24 16:13 Contents
+drwx------  10 pallspic  2019  340 Feb 24 16:13 ..
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 5.app/Contents:
+total 16
+drwx------  4 pallspic  2019   136 Feb 24 16:13 Resources
+-rw-r--r--  1 pallspic  2019     8 Feb 24 16:13 PkgInfo
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 MacOS
+-rw-r--r--  1 pallspic  2019  2077 Feb 24 16:13 Info.plist
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 ..
+drwxr-xr-x  6 pallspic  2019   204 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 5.app/Contents/Resources:
+total 64
+drwx------  3 pallspic  2019    102 Feb 24 16:13 en.lproj
+-rw-r--r--  1 pallspic  2019  28988 Feb 24 16:13 app.icns
+drwxr-xr-x  6 pallspic  2019    204 Feb 24 16:13 ..
+drwx------  4 pallspic  2019    136 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 5.app/Contents/Resources/en.lproj:
+total 8
+-rw-r--r--  1 pallspic  2019  329 Feb 24 16:13 InfoPlist.strings
+drwx------  4 pallspic  2019  136 Feb 24 16:13 ..
+drwx------  3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 5.app/Contents/MacOS:
+total 1128
+-rwxr-xr-x  1 pallspic  2019  577072 Feb 24 16:13 app_mode_loader
+drwxr-xr-x  6 pallspic  2019     204 Feb 24 16:13 ..
+drwxr-xr-x  3 pallspic  2019     102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 4.app:
+total 0
+drwxr-xr-x   6 pallspic  2019  204 Feb 24 16:13 Contents
+drwx------  10 pallspic  2019  340 Feb 24 16:13 ..
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 4.app/Contents:
+total 16
+drwx------  4 pallspic  2019   136 Feb 24 16:13 Resources
+-rw-r--r--  1 pallspic  2019     8 Feb 24 16:13 PkgInfo
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 MacOS
+-rw-r--r--  1 pallspic  2019  2077 Feb 24 16:13 Info.plist
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 ..
+drwxr-xr-x  6 pallspic  2019   204 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 4.app/Contents/Resources:
+total 64
+drwx------  3 pallspic  2019    102 Feb 24 16:13 en.lproj
+-rw-r--r--  1 pallspic  2019  28988 Feb 24 16:13 app.icns
+drwxr-xr-x  6 pallspic  2019    204 Feb 24 16:13 ..
+drwx------  4 pallspic  2019    136 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 4.app/Contents/Resources/en.lproj:
+total 8
+-rw-r--r--  1 pallspic  2019  329 Feb 24 16:13 InfoPlist.strings
+drwx------  4 pallspic  2019  136 Feb 24 16:13 ..
+drwx------  3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 4.app/Contents/MacOS:
+total 1128
+-rwxr-xr-x  1 pallspic  2019  577072 Feb 24 16:13 app_mode_loader
+drwxr-xr-x  6 pallspic  2019     204 Feb 24 16:13 ..
+drwxr-xr-x  3 pallspic  2019     102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 3.app:
+total 0
+drwxr-xr-x   6 pallspic  2019  204 Feb 24 16:13 Contents
+drwx------  10 pallspic  2019  340 Feb 24 16:13 ..
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 3.app/Contents:
+total 16
+drwx------  4 pallspic  2019   136 Feb 24 16:13 Resources
+-rw-r--r--  1 pallspic  2019     8 Feb 24 16:13 PkgInfo
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 MacOS
+-rw-r--r--  1 pallspic  2019  2077 Feb 24 16:13 Info.plist
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 ..
+drwxr-xr-x  6 pallspic  2019   204 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 3.app/Contents/Resources:
+total 64
+drwx------  3 pallspic  2019    102 Feb 24 16:13 en.lproj
+-rw-r--r--  1 pallspic  2019  28988 Feb 24 16:13 app.icns
+drwxr-xr-x  6 pallspic  2019    204 Feb 24 16:13 ..
+drwx------  4 pallspic  2019    136 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 3.app/Contents/Resources/en.lproj:
+total 8
+-rw-r--r--  1 pallspic  2019  329 Feb 24 16:13 InfoPlist.strings
+drwx------  4 pallspic  2019  136 Feb 24 16:13 ..
+drwx------  3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 3.app/Contents/MacOS:
+total 1128
+-rwxr-xr-x  1 pallspic  2019  577072 Feb 24 16:13 app_mode_loader
+drwxr-xr-x  6 pallspic  2019     204 Feb 24 16:13 ..
+drwxr-xr-x  3 pallspic  2019     102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 2.app:
+total 0
+drwxr-xr-x   6 pallspic  2019  204 Feb 24 16:13 Contents
+drwx------  10 pallspic  2019  340 Feb 24 16:13 ..
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 2.app/Contents:
+total 16
+drwx------  4 pallspic  2019   136 Feb 24 16:13 Resources
+-rw-r--r--  1 pallspic  2019     8 Feb 24 16:13 PkgInfo
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 MacOS
+-rw-r--r--  1 pallspic  2019  2077 Feb 24 16:13 Info.plist
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 ..
+drwxr-xr-x  6 pallspic  2019   204 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 2.app/Contents/Resources:
+total 64
+drwx------  3 pallspic  2019    102 Feb 24 16:13 en.lproj
+-rw-r--r--  1 pallspic  2019  28988 Feb 24 16:13 app.icns
+drwxr-xr-x  6 pallspic  2019    204 Feb 24 16:13 ..
+drwx------  4 pallspic  2019    136 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 2.app/Contents/Resources/en.lproj:
+total 8
+-rw-r--r--  1 pallspic  2019  329 Feb 24 16:13 InfoPlist.strings
+drwx------  4 pallspic  2019  136 Feb 24 16:13 ..
+drwx------  3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Floating for YouTube™ 2.app/Contents/MacOS:
+total 1128
+-rwxr-xr-x  1 pallspic  2019  577072 Feb 24 16:13 app_mode_loader
+drwxr-xr-x  6 pallspic  2019     204 Feb 24 16:13 ..
+drwxr-xr-x  3 pallspic  2019     102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Default jjphmlaoffndcnecccgemfdaaoighkel.app:
+total 0
+drwxr-xr-x   6 pallspic  2019  204 Feb 24 16:13 Contents
+drwx------  10 pallspic  2019  340 Feb 24 16:13 ..
+drwxr-xr-x   3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Default jjphmlaoffndcnecccgemfdaaoighkel.app/Contents:
+total 16
+drwx------  4 pallspic  2019   136 Feb 24 16:13 Resources
+-rw-r--r--  1 pallspic  2019     8 Feb 24 16:13 PkgInfo
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 MacOS
+-rw-r--r--  1 pallspic  2019  2077 Feb 24 16:13 Info.plist
+drwxr-xr-x  3 pallspic  2019   102 Feb 24 16:13 ..
+drwxr-xr-x  6 pallspic  2019   204 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Default jjphmlaoffndcnecccgemfdaaoighkel.app/Contents/Resources:
+total 64
+drwx------  3 pallspic  2019    102 Feb 24 16:13 en.lproj
+-rw-r--r--  1 pallspic  2019  28988 Feb 24 16:13 app.icns
+drwxr-xr-x  6 pallspic  2019    204 Feb 24 16:13 ..
+drwx------  4 pallspic  2019    136 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Default jjphmlaoffndcnecccgemfdaaoighkel.app/Contents/Resources/en.lproj:
+total 8
+-rw-r--r--  1 pallspic  2019  329 Feb 24 16:13 InfoPlist.strings
+drwx------  4 pallspic  2019  136 Feb 24 16:13 ..
+drwx------  3 pallspic  2019  102 Feb 24 16:13 .
+
+/Users/pallspic//Applications/Chrome Apps.localized/Default jjphmlaoffndcnecccgemfdaaoighkel.app/Contents/MacOS:
+total 1128
+-rwxr-xr-x  1 pallspic  2019  577072 Feb 24 16:13 app_mode_loader
+drwxr-xr-x  6 pallspic  2019     204 Feb 24 16:13 ..
+drwxr-xr-x  3 pallspic  2019     102 Feb 24 16:13 .
+
+/Users/pallspic//.TemporaryItems:

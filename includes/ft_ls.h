@@ -45,7 +45,7 @@ typedef struct 			s_dir
 int		ft_ls(char *path, const char *flags);
 void	print_ls(t_files *files, size_t size, const char *flags);
 void	common_sort(t_files *data, size_t size, _Bool (*comp)(t_files, t_files));
-t_files	*sort_files(t_input *raw, size_t *size, const char *flags, char *path);
+t_files	*sort_files(DIR *dir, size_t size, const char *flags, char *path);
 void	comp(t_files *data, size_t size, const char *flags);
 
 # endif

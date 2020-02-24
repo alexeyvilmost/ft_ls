@@ -23,29 +23,21 @@ char 	*ls_get_flags(int ac, char **av, int *last)
 	return (ft_strdup(flags));
 }
 
-t_input	*get_files(DIR *dir, size_t *size)
+size_t	count_files(char const *dirname, _Bool a_param)
 {
-	t_input *ret;
-	t_input *temp;
+	size_t			result;
+	struct dirent	*temp;
+	DIR 			*dir;
 
-	*size = 0;
-	ret = ft_memalloc(sizeof(t_input));
-	temp = ret;
-	while ((temp->data = readdir(dir)) != NULL)
-	{
-//		ft_printf("Pre-pre-pre-pre: %s\n", temp->data->d_name);
-		temp->next = ft_memalloc(sizeof(t_input));
-		temp = temp->next;
-		(*size)++;
-	}
-	temp->next = NULL;
-	temp = ret;
-	while (temp->data)
-	{
-//		ft_printf("Pre-pre-pre: %s\n", temp->data->d_name);
-		temp = temp->next;
-	}
-	return (ret);
+	result = 0;
+	if (!(dir = opendir(dirname)))
+		return 0;
+	while (dir && (temp = readdir(dir)))
+		if (temp->d_name[0] != '.' || a_param)
+			result++;
+
+	closedir(dir);
+	return result;
 }
 
 void	recursive_ls(t_files *files, size_t size, const char *flags)
@@ -55,17 +47,31 @@ void	recursive_ls(t_files *files, size_t size, const char *flags)
 	i = 0;
 	while (i < size)
 	{
-		if (S_ISDIR(files[i].stat.st_mode) && ft_strcmp(files[i].path, ".")
-			&& ft_strcmp(files[i].path, ".."))
+		if (S_ISDIR(files[i].stat.st_mode) &&
+		ft_strcmp(files[i].dirent.d_name, ".") &&
+		ft_strcmp(files[i].dirent.d_name, ".."))
 		{
 			ft_printf("\n%s:\n", files[i].path);
-			if (ft_ls(files[i].path, flags))
+			if (files[i].stat.st_mode & S_IROTH)
 			{
-				ft_printf("Error on: %s\n", files[i].path);
-				continue ;
+				if (ft_ls(files[i].path, flags))
+					ft_printf("Error on: %s\n", files[i].path);
 			}
+			else
+				ft_printf("ls: %s: Permission denied\n", files[i].dirent.d_name);
 		}
 		i++;
+	}
+}
+
+void	parse_error(char *path)
+{
+	char	*trim;
+//	DIR		*parent_dir;
+
+	if ((trim = ft_strrchr(path, '/')) != &path[0])
+	{
+		*trim = '\0';
 	}
 }
 
@@ -75,12 +81,13 @@ int	ft_ls(char *path, const char *flags)
 	t_files	*files;
 	DIR		*curr;
 
-	size = 0;
+	size = count_files(path, ft_strchr(flags, 'a'));
 	if ((curr = opendir(path)) == NULL)
+	{
+		parse_error(path);
 		return (-1);
-	files = sort_files(get_files(curr, &size), &size, flags, path);
-//	for (int i = 0; i < size; i++)
-//		ft_printf("%s\n", files[i].path);
+	}
+	files = sort_files(curr, size, flags, path);
 	print_ls(files, size, flags);
 	if (ft_strchr(flags, 'R'))
 		recursive_ls(files, size, flags);

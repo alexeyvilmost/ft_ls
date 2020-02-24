@@ -34,12 +34,6 @@ string.h
 stdarg.h
 -
 
-/Users/pallspic/Projects/ft_ls/ls_sort.c
-sys/stat.h
--
-includes/ft_ls.h
-/Users/pallspic/Projects/ft_ls/includes/ft_ls.h
-
 /Users/pallspic/Projects/ft_ls/main.c
 includes/ft_ls.h
 /Users/pallspic/Projects/ft_ls/includes/ft_ls.h

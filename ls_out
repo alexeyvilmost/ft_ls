@@ -1,14 +1,1543 @@
-total 208
--rw-r--r--   1 pallspic  2019   3618 Oct 26 12:11 CMakeLists.txt
--rw-r--r--   1 pallspic  2019    103 Oct 26 12:11 README.md
--rwxr-xr-x   1 pallspic  2019  37012 Feb 15 22:18 a.out
--rw-r--r--   1 pallspic  2019    761 Feb 15 22:19 a_out
-drwxr-xr-x   9 pallspic  2019    306 Feb 15 22:18 cmake-build-debug
--rw-r--r--   1 pallspic  2019   1192 Feb 15 19:31 comparators.c
-drwxr-xr-x  10 pallspic  2019    340 Oct 26 12:11 examples
--rwxr-xr-x   1 pallspic  2019  36684 Oct 26 14:09 ft_ls
-drwxr-xr-x   4 pallspic  2019    136 Feb 15 21:37 includes
+total 400
 drwxr-xr-x  12 pallspic  2019    408 Oct 26 12:11 libft
--rw-r--r--   1 pallspic  2019      0 Feb 15 22:19 ls_out
--rw-r--r--   1 pallspic  2019    465 Oct 26 12:11 ls_sort.c
--rw-r--r--   1 pallspic  2019   4691 Feb 15 22:18 main.c
+drwxr-xr-x  10 pallspic  2019    340 Oct 26 12:11 examples
+-rw-r--r--   1 pallspic  2019    103 Oct 26 12:11 README.md
+drwxr-xr-x   5 pallspic  2019    170 Oct 26 12:12 ..
+-rw-r--r--   1 pallspic  2019   1290 Feb 15 22:23 comparators.c
+-rwxr-xr-x   1 pallspic  2019  37156 Feb 16 02:26 a.out
+-rw-r--r--   1 pallspic  2019   3626 Feb 16 02:56 CMakeLists.txt
+-rw-r--r--   1 pallspic  2019   2212 Feb 16 03:35 comparators.o
+drwxr-xr-x   4 pallspic  2019    136 Feb 24 16:48 includes
+drwxr-xr-x   9 pallspic  2019    306 Feb 24 16:48 cmake-build-debug
+-rw-r--r--   1 pallspic  2019   1701 Feb 24 16:49 ls_sort.c
+-rw-r--r--   1 pallspic  2019   2684 Feb 24 16:49 ls_sort.o
+-rw-r--r--   1 pallspic  2019   2599 Feb 24 17:15 print.c
+-rw-r--r--   1 pallspic  2019   4340 Feb 24 17:15 print.o
+-rw-r--r--   1 pallspic  2019   2536 Feb 24 17:27 main.c
+-rw-r--r--   1 pallspic  2019   3628 Feb 24 17:27 main.o
+-rwxr-xr-x   1 pallspic  2019  37268 Feb 24 17:27 ft_ls
+-rw-r--r--   1 pallspic  2019   1578 Feb 24 17:35 Makefile
+drwxr-xr-x   7 pallspic  2019    238 Feb 24 17:35 .idea
+drwxr-xr-x  14 pallspic  2019    476 Feb 24 17:35 .git
+drwxr-xr-x  23 pallspic  2019    782 Feb 24 17:35 .
+-rw-r--r--   1 pallspic  2019      0 Feb 24 17:35 ls_out
+-rw-r--r--   1 pallspic  2019  69836 Feb 24 17:35 a_out
+
+./libft:
+total 5520
+-rw-r--r--    1 pallspic  2019  2701264 Oct 26 12:11 libft.h.gch
+-rw-r--r--    1 pallspic  2019     7244 Oct 26 12:11 libft.h
+-rw-r--r--    1 pallspic  2019     3934 Oct 26 12:11 Makefile
+-rw-r--r--    1 pallspic  2019     6148 Oct 26 12:11 .DS_Store
+drwxr-xr-x   12 pallspic  2019      408 Oct 26 12:11 .
+drwxr-xr-x  120 pallspic  2019     4080 Feb 16 03:22 ft_base_funcs
+drwxr-xr-x   16 pallspic  2019      544 Feb 16 03:22 ft_long_math
+drwxr-xr-x   30 pallspic  2019     1020 Feb 16 03:22 ft_extra_funcs
+-rw-r--r--    1 pallspic  2019    98320 Feb 16 03:22 libft.a
+drwxr-xr-x    4 pallspic  2019      136 Feb 16 03:22 get_next_line
+drwxr-xr-x    8 pallspic  2019      272 Feb 16 03:22 ft_printf
+drwxr-xr-x   23 pallspic  2019      782 Feb 24 17:35 ..
+
+./libft/ft_base_funcs:
+total 944
+-rw-r--r--    1 pallspic  2019   982 Oct 26 12:11 ft_toupper.c
+-rw-r--r--    1 pallspic  2019   981 Oct 26 12:11 ft_tolower.c
+-rw-r--r--    1 pallspic  2019  1197 Oct 26 12:11 ft_strtrim.c
+-rw-r--r--    1 pallspic  2019  1141 Oct 26 12:11 ft_strsub.c
+-rw-r--r--    1 pallspic  2019  1024 Oct 26 12:11 ft_strstr.c
+-rw-r--r--    1 pallspic  2019  1785 Oct 26 12:11 ft_strsplit.c
+-rw-r--r--    1 pallspic  2019  1215 Oct 26 12:11 ft_strrchr.c
+-rw-r--r--    1 pallspic  2019  1290 Oct 26 12:11 ft_strnstr.c
+-rw-r--r--    1 pallspic  2019  1056 Oct 26 12:11 ft_strnew.c
+-rw-r--r--    1 pallspic  2019  1043 Oct 26 12:11 ft_strnequ.c
+-rw-r--r--    1 pallspic  2019  1121 Oct 26 12:11 ft_strncpy.c
+-rw-r--r--    1 pallspic  2019  1288 Oct 26 12:11 ft_strncmp.c
+-rw-r--r--    1 pallspic  2019  1088 Oct 26 12:11 ft_strncat.c
+-rw-r--r--    1 pallspic  2019  1226 Oct 26 12:11 ft_strmapi.c
+-rw-r--r--    1 pallspic  2019  1197 Oct 26 12:11 ft_strmap.c
+-rw-r--r--    1 pallspic  2019  1029 Oct 26 12:11 ft_strlen.c
+-rw-r--r--    1 pallspic  2019  1245 Oct 26 12:11 ft_strlcat.c
+-rw-r--r--    1 pallspic  2019  1056 Oct 26 12:11 ft_striteri.c
+-rw-r--r--    1 pallspic  2019  1010 Oct 26 12:11 ft_striter.c
+-rw-r--r--    1 pallspic  2019  1028 Oct 26 12:11 ft_strequ.c
+-rw-r--r--    1 pallspic  2019  1127 Oct 26 12:11 ft_strdup.c
+-rw-r--r--    1 pallspic  2019  1006 Oct 26 12:11 ft_strdel.c
+-rw-r--r--    1 pallspic  2019  1077 Oct 26 12:11 ft_strcpy.c
+-rw-r--r--    1 pallspic  2019  1129 Oct 26 12:11 ft_strcmp.c
+-rw-r--r--    1 pallspic  2019  1028 Oct 26 12:11 ft_strclr.c
+-rw-r--r--    1 pallspic  2019  1034 Oct 26 12:11 ft_strchr.c
+-rw-r--r--    1 pallspic  2019  1014 Oct 26 12:11 ft_strcat.c
+-rw-r--r--    1 pallspic  2019  1031 Oct 26 12:11 ft_putstr_fd.c
+-rw-r--r--    1 pallspic  2019  1019 Oct 26 12:11 ft_putstr.c
+-rw-r--r--    1 pallspic  2019  1159 Oct 26 12:11 ft_putnbr_fd.c
+-rw-r--r--    1 pallspic  2019   969 Oct 26 12:11 ft_putnbr.c
+-rw-r--r--    1 pallspic  2019  1011 Oct 26 12:11 ft_putendl_fd.c
+-rw-r--r--    1 pallspic  2019   991 Oct 26 12:11 ft_putendl.c
+-rw-r--r--    1 pallspic  2019   980 Oct 26 12:11 ft_putchar_fd.c
+-rw-r--r--    1 pallspic  2019   968 Oct 26 12:11 ft_putchar.c
+-rw-r--r--    1 pallspic  2019  1140 Oct 26 12:11 ft_memset.c
+-rw-r--r--    1 pallspic  2019  1211 Oct 26 12:11 ft_memmove.c
+-rw-r--r--    1 pallspic  2019  1006 Oct 26 12:11 ft_memdel.c
+-rw-r--r--    1 pallspic  2019  1148 Oct 26 12:11 ft_memcpy.c
+-rw-r--r--    1 pallspic  2019  1195 Oct 26 12:11 ft_memcmp.c
+-rw-r--r--    1 pallspic  2019  1170 Oct 26 12:11 ft_memchr.c
+-rw-r--r--    1 pallspic  2019  1223 Oct 26 12:11 ft_memccpy.c
+-rw-r--r--    1 pallspic  2019  1040 Oct 26 12:11 ft_memalloc.c
+-rw-r--r--    1 pallspic  2019  1343 Oct 26 12:11 ft_lstnew.c
+-rw-r--r--    1 pallspic  2019  1109 Oct 26 12:11 ft_lstmap.c
+-rw-r--r--    1 pallspic  2019  1061 Oct 26 12:11 ft_lstiter.c
+-rw-r--r--    1 pallspic  2019  1064 Oct 26 12:11 ft_lstdelone.c
+-rw-r--r--    1 pallspic  2019  1086 Oct 26 12:11 ft_lstdel.c
+-rw-r--r--    1 pallspic  2019  1003 Oct 26 12:11 ft_lstadd.c
+-rw-r--r--    1 pallspic  2019   981 Oct 26 12:11 ft_itoa.c
+-rw-r--r--    1 pallspic  2019  1058 Oct 26 12:11 ft_isspace.c
+-rw-r--r--    1 pallspic  2019   975 Oct 26 12:11 ft_isprint.c
+-rw-r--r--    1 pallspic  2019   974 Oct 26 12:11 ft_isdigit.c
+-rw-r--r--    1 pallspic  2019   974 Oct 26 12:11 ft_isascii.c
+-rw-r--r--    1 pallspic  2019  1003 Oct 26 12:11 ft_isalpha.c
+-rw-r--r--    1 pallspic  2019  1006 Oct 26 12:11 ft_isalnum.c
+-rw-r--r--    1 pallspic  2019   997 Oct 26 12:11 ft_bzero.c
+-rw-r--r--    1 pallspic  2019  1349 Oct 26 12:11 ft_atoi.c
+drwxr-xr-x   12 pallspic  2019   408 Oct 26 12:11 ..
+-rw-r--r--    1 pallspic  2019  1145 Feb 15 20:44 ft_strjoin.c
+-rw-r--r--    1 pallspic  2019   656 Feb 16 03:22 ft_isprint.o
+-rw-r--r--    1 pallspic  2019   656 Feb 16 03:22 ft_isdigit.o
+-rw-r--r--    1 pallspic  2019   656 Feb 16 03:22 ft_isascii.o
+-rw-r--r--    1 pallspic  2019   672 Feb 16 03:22 ft_isalpha.o
+-rw-r--r--    1 pallspic  2019   752 Feb 16 03:22 ft_isalnum.o
+-rw-r--r--    1 pallspic  2019  1100 Feb 16 03:22 ft_atoi.o
+-rw-r--r--    1 pallspic  2019   748 Feb 16 03:22 ft_memalloc.o
+-rw-r--r--    1 pallspic  2019   672 Feb 16 03:22 ft_itoa.o
+-rw-r--r--    1 pallspic  2019   712 Feb 16 03:22 ft_isspace.o
+-rw-r--r--    1 pallspic  2019   680 Feb 16 03:22 ft_bzero.o
+-rw-r--r--    1 pallspic  2019   724 Feb 16 03:22 ft_memset.o
+-rw-r--r--    1 pallspic  2019   784 Feb 16 03:22 ft_memmove.o
+-rw-r--r--    1 pallspic  2019   700 Feb 16 03:22 ft_memcpy.o
+-rw-r--r--    1 pallspic  2019   764 Feb 16 03:22 ft_memcmp.o
+-rw-r--r--    1 pallspic  2019   772 Feb 16 03:22 ft_memchr.o
+-rw-r--r--    1 pallspic  2019   696 Feb 16 03:22 ft_lstiter.o
+-rw-r--r--    1 pallspic  2019   840 Feb 16 03:22 ft_strrchr.o
+-rw-r--r--    1 pallspic  2019   800 Feb 16 03:22 ft_strncat.o
+-rw-r--r--    1 pallspic  2019   968 Feb 16 03:22 ft_strlcat.o
+-rw-r--r--    1 pallspic  2019   700 Feb 16 03:22 ft_strclr.o
+-rw-r--r--    1 pallspic  2019   740 Feb 16 03:22 ft_strchr.o
+-rw-r--r--    1 pallspic  2019   740 Feb 16 03:22 ft_strcat.o
+-rw-r--r--    1 pallspic  2019   764 Feb 16 03:22 ft_putstr_fd.o
+-rw-r--r--    1 pallspic  2019   752 Feb 16 03:22 ft_putstr.o
+-rw-r--r--    1 pallspic  2019   984 Feb 16 03:22 ft_putnbr_fd.o
+-rw-r--r--    1 pallspic  2019   668 Feb 16 03:22 ft_putnbr.o
+-rw-r--r--    1 pallspic  2019   824 Feb 16 03:22 ft_putendl_fd.o
+-rw-r--r--    1 pallspic  2019   708 Feb 16 03:22 ft_putendl.o
+-rw-r--r--    1 pallspic  2019   688 Feb 16 03:22 ft_putchar_fd.o
+-rw-r--r--    1 pallspic  2019   676 Feb 16 03:22 ft_putchar.o
+-rw-r--r--    1 pallspic  2019   700 Feb 16 03:22 ft_memdel.o
+-rw-r--r--    1 pallspic  2019   752 Feb 16 03:22 ft_memccpy.o
+-rw-r--r--    1 pallspic  2019   724 Feb 16 03:22 ft_lstmap.o
+-rw-r--r--    1 pallspic  2019   740 Feb 16 03:22 ft_strstr.o
+-rw-r--r--    1 pallspic  2019  1800 Feb 16 03:22 ft_strsplit.o
+-rw-r--r--    1 pallspic  2019   984 Feb 16 03:22 ft_strnstr.o
+-rw-r--r--    1 pallspic  2019   760 Feb 16 03:22 ft_strnew.o
+-rw-r--r--    1 pallspic  2019   732 Feb 16 03:22 ft_strnequ.o
+-rw-r--r--    1 pallspic  2019   804 Feb 16 03:22 ft_strncpy.o
+-rw-r--r--    1 pallspic  2019   904 Feb 16 03:22 ft_strncmp.o
+-rw-r--r--    1 pallspic  2019   876 Feb 16 03:22 ft_strmapi.o
+-rw-r--r--    1 pallspic  2019   868 Feb 16 03:22 ft_strmap.o
+-rw-r--r--    1 pallspic  2019   692 Feb 16 03:22 ft_strlen.o
+-rw-r--r--    1 pallspic  2019   904 Feb 16 03:22 ft_strjoin.o
+-rw-r--r--    1 pallspic  2019   768 Feb 16 03:22 ft_striteri.o
+-rw-r--r--    1 pallspic  2019   752 Feb 16 03:22 ft_striter.o
+-rw-r--r--    1 pallspic  2019   720 Feb 16 03:22 ft_strequ.o
+-rw-r--r--    1 pallspic  2019   848 Feb 16 03:22 ft_strdup.o
+-rw-r--r--    1 pallspic  2019   700 Feb 16 03:22 ft_strdel.o
+-rw-r--r--    1 pallspic  2019   756 Feb 16 03:22 ft_strcpy.o
+-rw-r--r--    1 pallspic  2019   796 Feb 16 03:22 ft_strcmp.o
+-rw-r--r--    1 pallspic  2019   656 Feb 16 03:22 ft_toupper.o
+-rw-r--r--    1 pallspic  2019   656 Feb 16 03:22 ft_tolower.o
+-rw-r--r--    1 pallspic  2019  1188 Feb 16 03:22 ft_strtrim.o
+-rw-r--r--    1 pallspic  2019   816 Feb 16 03:22 ft_strsub.o
+-rw-r--r--    1 pallspic  2019   920 Feb 16 03:22 ft_lstnew.o
+-rw-r--r--    1 pallspic  2019   720 Feb 16 03:22 ft_lstdelone.o
+-rw-r--r--    1 pallspic  2019   768 Feb 16 03:22 ft_lstdel.o
+-rw-r--r--    1 pallspic  2019   636 Feb 16 03:22 ft_lstadd.o
+drwxr-xr-x  120 pallspic  2019  4080 Feb 16 03:22 .
+
+./libft/ft_long_math:
+total 112
+-rw-r--r--   1 pallspic  2019  1650 Oct 26 12:11 ft_make_nline.c
+-rw-r--r--   1 pallspic  2019  2196 Oct 26 12:11 ft_long_utils.c
+-rw-r--r--   1 pallspic  2019  2192 Oct 26 12:11 ft_long_sum.c
+-rw-r--r--   1 pallspic  2019  1380 Oct 26 12:11 ft_long_mult.c
+-rw-r--r--   1 pallspic  2019  2447 Oct 26 12:11 ft_long_div.c
+-rw-r--r--   1 pallspic  2019  2256 Oct 26 12:11 ft_long_diff.c
+-rw-r--r--   1 pallspic  2019  1849 Oct 26 12:11 ft_long.c
+drwxr-xr-x  12 pallspic  2019   408 Oct 26 12:11 ..
+-rw-r--r--   1 pallspic  2019  1652 Feb 16 03:22 ft_make_nline.o
+-rw-r--r--   1 pallspic  2019  2072 Feb 16 03:22 ft_long_utils.o
+-rw-r--r--   1 pallspic  2019  2300 Feb 16 03:22 ft_long_sum.o
+-rw-r--r--   1 pallspic  2019  1476 Feb 16 03:22 ft_long_mult.o
+-rw-r--r--   1 pallspic  2019  2640 Feb 16 03:22 ft_long_div.o
+-rw-r--r--   1 pallspic  2019  2264 Feb 16 03:22 ft_long_diff.o
+-rw-r--r--   1 pallspic  2019  1600 Feb 16 03:22 ft_long.o
+drwxr-xr-x  16 pallspic  2019   544 Feb 16 03:22 .
+
+./libft/ft_extra_funcs:
+total 224
+-rw-r--r--   1 pallspic  2019  1242 Oct 26 12:11 ft_strrev.c
+-rw-r--r--   1 pallspic  2019  1646 Oct 26 12:11 ft_strjoinfree.c
+-rw-r--r--   1 pallspic  2019  1162 Oct 26 12:11 ft_strfchr.c
+-rw-r--r--   1 pallspic  2019  1491 Oct 26 12:11 ft_strerase.c
+-rw-r--r--   1 pallspic  2019  1473 Oct 26 12:11 ft_pow.c
+-rw-r--r--   1 pallspic  2019  1187 Oct 26 12:11 ft_nsize.c
+-rw-r--r--   1 pallspic  2019  1295 Oct 26 12:11 ft_nmult.c
+-rw-r--r--   1 pallspic  2019  1131 Oct 26 12:11 ft_memsetloc.c
+-rw-r--r--   1 pallspic  2019  1252 Oct 26 12:11 ft_max.c
+-rw-r--r--   1 pallspic  2019  1720 Oct 26 12:11 ft_itoa_base.c
+-rw-r--r--   1 pallspic  2019  1056 Oct 26 12:11 ft_isupper.c
+-rw-r--r--   1 pallspic  2019  1057 Oct 26 12:11 ft_islower.c
+-rw-r--r--   1 pallspic  2019  1206 Oct 26 12:11 ft_get.c
+-rw-r--r--   1 pallspic  2019  1022 Oct 26 12:11 ft_abs.c
+drwxr-xr-x  12 pallspic  2019   408 Oct 26 12:11 ..
+-rw-r--r--   1 pallspic  2019   956 Feb 16 03:22 ft_strrev.o
+-rw-r--r--   1 pallspic  2019  1248 Feb 16 03:22 ft_strjoinfree.o
+-rw-r--r--   1 pallspic  2019   744 Feb 16 03:22 ft_strfchr.o
+-rw-r--r--   1 pallspic  2019  1036 Feb 16 03:22 ft_strerase.o
+-rw-r--r--   1 pallspic  2019  1016 Feb 16 03:22 ft_pow.o
+-rw-r--r--   1 pallspic  2019   852 Feb 16 03:22 ft_nsize.o
+-rw-r--r--   1 pallspic  2019   844 Feb 16 03:22 ft_nmult.o
+-rw-r--r--   1 pallspic  2019  1272 Feb 16 03:22 ft_itoa_base.o
+-rw-r--r--   1 pallspic  2019   652 Feb 16 03:22 ft_abs.o
+-rw-r--r--   1 pallspic  2019   764 Feb 16 03:22 ft_memsetloc.o
+-rw-r--r--   1 pallspic  2019   820 Feb 16 03:22 ft_max.o
+-rw-r--r--   1 pallspic  2019   664 Feb 16 03:22 ft_isupper.o
+-rw-r--r--   1 pallspic  2019   664 Feb 16 03:22 ft_islower.o
+-rw-r--r--   1 pallspic  2019   844 Feb 16 03:22 ft_get.o
+drwxr-xr-x  30 pallspic  2019  1020 Feb 16 03:22 .
+
+./libft/get_next_line:
+total 16
+-rw-r--r--   1 pallspic  2019  2451 Oct 26 12:11 get_next_line.c
+drwxr-xr-x  12 pallspic  2019   408 Oct 26 12:11 ..
+-rw-r--r--   1 pallspic  2019  2816 Feb 16 03:22 get_next_line.o
+drwxr-xr-x   4 pallspic  2019   136 Feb 16 03:22 .
+
+./libft/ft_printf:
+total 72
+-rw-r--r--   1 pallspic  2019  4006 Oct 26 12:11 utilities.c
+-rw-r--r--   1 pallspic  2019  4033 Oct 26 12:11 parsers.c
+-rw-r--r--   1 pallspic  2019  4668 Oct 26 12:11 ft_printf.c
+drwxr-xr-x  12 pallspic  2019   408 Oct 26 12:11 ..
+-rw-r--r--   1 pallspic  2019  5908 Feb 16 03:22 parsers.o
+-rw-r--r--   1 pallspic  2019  5560 Feb 16 03:22 ft_printf.o
+-rw-r--r--   1 pallspic  2019  4056 Feb 16 03:22 utilities.o
+drwxr-xr-x   8 pallspic  2019   272 Feb 16 03:22 .
+
+./examples:
+total 0
+-rw-r--r--   1 pallspic  2019    0 Oct 26 12:11 07
+-rw-r--r--   1 pallspic  2019    0 Oct 26 12:11 06
+-rw-r--r--   1 pallspic  2019    0 Oct 26 12:11 05
+-rw-r--r--   1 pallspic  2019    0 Oct 26 12:11 03
+-rw-r--r--   1 pallspic  2019    0 Oct 26 12:11 02
+-rw-r--r--   1 pallspic  2019    0 Oct 26 12:11 01
+-rw-r--r--   1 pallspic  2019    0 Oct 26 12:11 001
+-rw-r--r--   1 pallspic  2019    0 Oct 26 12:11 00
+drwxr-xr-x  10 pallspic  2019  340 Oct 26 12:11 .
+drwxr-xr-x  23 pallspic  2019  782 Feb 24 17:35 ..
+
+./includes:
+total 5376
+-rw-r--r--   1 pallspic  2019  2746512 Oct 26 12:11 ft_ls.h.gch
+-rw-r--r--   1 pallspic  2019     1101 Feb 24 16:48 ft_ls.h
+drwxr-xr-x   4 pallspic  2019      136 Feb 24 16:48 .
+drwxr-xr-x  23 pallspic  2019      782 Feb 24 17:35 ..
+
+./cmake-build-debug:
+total 440
+-rw-r--r--   1 pallspic  2019    1390 Oct 26 12:11 cmake_install.cmake
+-rw-r--r--   1 pallspic  2019   21653 Oct 26 12:11 CMakeCache.txt
+drwxr-xr-x   3 pallspic  2019     102 Oct 26 14:07 ft_ls.dSYM
+-rw-r--r--   1 pallspic  2019   16294 Feb 24 16:14 ft_ls.cbp
+-rw-r--r--   1 pallspic  2019  101402 Feb 24 16:14 Makefile
+-rwxr-xr-x   1 pallspic  2019   73812 Feb 24 16:48 ft_ls
+drwxr-xr-x  16 pallspic  2019     544 Feb 24 16:48 CMakeFiles
+drwxr-xr-x   9 pallspic  2019     306 Feb 24 16:48 .
+drwxr-xr-x  23 pallspic  2019     782 Feb 24 17:35 ..
+
+./cmake-build-debug/ft_ls.dSYM:
+total 0
+drwxr-xr-x  4 pallspic  2019  136 Oct 26 14:07 Contents
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 14:07 .
+drwxr-xr-x  9 pallspic  2019  306 Feb 24 16:48 ..
+
+./cmake-build-debug/ft_ls.dSYM/Contents:
+total 8
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 14:07 Resources
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 14:07 ..
+drwxr-xr-x  4 pallspic  2019  136 Oct 26 14:07 .
+-rw-r--r--  1 pallspic  2019  634 Feb 15 22:14 Info.plist
+
+./cmake-build-debug/ft_ls.dSYM/Contents/Resources:
+total 0
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 14:07 DWARF
+drwxr-xr-x  4 pallspic  2019  136 Oct 26 14:07 ..
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 14:07 .
+
+./cmake-build-debug/ft_ls.dSYM/Contents/Resources/DWARF:
+total 192
+drwxr-xr-x  3 pallspic  2019    102 Oct 26 14:07 ..
+drwxr-xr-x  3 pallspic  2019    102 Oct 26 14:07 .
+-rw-r--r--  1 pallspic  2019  94522 Feb 15 22:14 ft_ls
+
+./cmake-build-debug/CMakeFiles:
+total 128
+-rw-r--r--   1 pallspic  2019    728 Oct 26 12:11 feature_tests.c
+-rwxr-xr-x   1 pallspic  2019   4288 Oct 26 12:11 feature_tests.bin
+-rw-r--r--   1 pallspic  2019  16497 Oct 26 12:11 CMakeOutput.log
+-rw-r--r--   1 pallspic  2019    654 Oct 26 12:11 CMakeDirectoryInformation.cmake
+drwxr-xr-x   6 pallspic  2019    204 Oct 26 12:11 3.14.5
+drwxr-xr-x   6 pallspic  2019    204 Oct 26 12:11 3.14.3
+-rw-r--r--   1 pallspic  2019     39 Feb 24 16:14 clion-environment.txt
+-rw-r--r--   1 pallspic  2019      3 Feb 24 16:14 progress.marks
+-rw-r--r--   1 pallspic  2019     85 Feb 24 16:14 cmake.check_cache
+-rw-r--r--   1 pallspic  2019    223 Feb 24 16:14 TargetDirectories.txt
+-rw-r--r--   1 pallspic  2019   3575 Feb 24 16:14 Makefile2
+-rw-r--r--   1 pallspic  2019   3314 Feb 24 16:14 Makefile.cmake
+-rw-r--r--   1 pallspic  2019    281 Feb 24 16:14 clion-log.txt
+drwxr-xr-x  16 pallspic  2019    544 Feb 24 16:48 ft_ls.dir
+drwxr-xr-x   9 pallspic  2019    306 Feb 24 16:48 ..
+drwxr-xr-x  16 pallspic  2019    544 Feb 24 16:48 .
+
+./cmake-build-debug/CMakeFiles/3.14.5:
+total 56
+drwxr-xr-x   4 pallspic  2019    136 Oct 26 12:11 CompilerIdC
+-rw-r--r--   1 pallspic  2019    398 Oct 26 12:11 CMakeSystem.cmake
+-rwxr-xr-x   1 pallspic  2019  16432 Oct 26 12:11 CMakeDetermineCompilerABI_C.bin
+-rw-r--r--   1 pallspic  2019   2428 Oct 26 12:11 CMakeCCompiler.cmake
+drwxr-xr-x   6 pallspic  2019    204 Oct 26 12:11 .
+drwxr-xr-x  16 pallspic  2019    544 Feb 24 16:48 ..
+
+./cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC:
+total 80
+-rwxr-xr-x  1 pallspic  2019  16592 Oct 26 12:11 a.out
+-rw-r--r--  1 pallspic  2019  20055 Oct 26 12:11 CMakeCCompilerId.c
+drwxr-xr-x  6 pallspic  2019    204 Oct 26 12:11 ..
+drwxr-xr-x  4 pallspic  2019    136 Oct 26 12:11 .
+
+./cmake-build-debug/CMakeFiles/3.14.3:
+total 32
+drwxr-xr-x   4 pallspic  2019   136 Oct 26 12:11 CompilerIdC
+-rw-r--r--   1 pallspic  2019   362 Oct 26 12:11 CMakeSystem.cmake
+-rwxr-xr-x   1 pallspic  2019  4304 Oct 26 12:11 CMakeDetermineCompilerABI_C.bin
+-rw-r--r--   1 pallspic  2019  2719 Oct 26 12:11 CMakeCCompiler.cmake
+drwxr-xr-x   6 pallspic  2019   204 Oct 26 12:11 .
+drwxr-xr-x  16 pallspic  2019   544 Feb 24 16:48 ..
+
+./cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC:
+total 64
+-rwxr-xr-x  1 pallspic  2019   8616 Oct 26 12:11 a.out
+-rw-r--r--  1 pallspic  2019  20055 Oct 26 12:11 CMakeCCompilerId.c
+drwxr-xr-x  6 pallspic  2019    204 Oct 26 12:11 ..
+drwxr-xr-x  4 pallspic  2019    136 Oct 26 12:11 .
+
+./cmake-build-debug/CMakeFiles/ft_ls.dir:
+total 544
+drwxr-xr-x   7 pallspic  2019     238 Oct 26 12:11 libft
+-rw-r--r--   1 pallspic  2019     302 Oct 26 12:11 flags.make
+-rw-r--r--   1 pallspic  2019    4970 Feb 16 03:33 link.txt
+-rw-r--r--   1 pallspic  2019  156326 Feb 16 03:33 build.make
+-rw-r--r--   1 pallspic  2019   15633 Feb 16 03:33 DependInfo.cmake
+-rw-r--r--   1 pallspic  2019    2030 Feb 24 16:14 progress.make
+-rw-r--r--   1 pallspic  2019    5356 Feb 24 16:14 cmake_clean.cmake
+-rw-r--r--   1 pallspic  2019   10884 Feb 24 16:48 main.c.o
+-rw-r--r--   1 pallspic  2019   10512 Feb 24 16:48 print.c.o
+-rw-r--r--   1 pallspic  2019    9300 Feb 24 16:48 ls_sort.c.o
+-rw-r--r--   1 pallspic  2019   14146 Feb 24 16:48 depend.make
+-rw-r--r--   1 pallspic  2019   12256 Feb 24 16:48 depend.internal
+-rw-r--r--   1 pallspic  2019    8000 Feb 24 16:48 comparators.c.o
+-rw-r--r--   1 pallspic  2019     547 Feb 24 16:48 C.includecache
+drwxr-xr-x  16 pallspic  2019     544 Feb 24 16:48 ..
+drwxr-xr-x  16 pallspic  2019     544 Feb 24 16:48 .
+
+./cmake-build-debug/CMakeFiles/ft_ls.dir/libft:
+total 0
+drwxr-xr-x   3 pallspic  2019   102 Oct 26 12:11 get_next_line
+drwxr-xr-x   5 pallspic  2019   170 Oct 26 12:11 ft_printf
+drwxr-xr-x   9 pallspic  2019   306 Oct 26 12:11 ft_long_math
+drwxr-xr-x  16 pallspic  2019   544 Oct 26 12:11 ft_extra_funcs
+drwxr-xr-x   7 pallspic  2019   238 Oct 26 12:11 .
+drwxr-xr-x  61 pallspic  2019  2074 Feb 15 20:44 ft_base_funcs
+drwxr-xr-x  16 pallspic  2019   544 Feb 24 16:48 ..
+
+./cmake-build-debug/CMakeFiles/ft_ls.dir/libft/get_next_line:
+total 16
+-rw-r--r--  1 pallspic  2019  6028 Oct 26 12:11 get_next_line.c.o
+drwxr-xr-x  7 pallspic  2019   238 Oct 26 12:11 ..
+drwxr-xr-x  3 pallspic  2019   102 Oct 26 12:11 .
+
+./cmake-build-debug/CMakeFiles/ft_ls.dir/libft/ft_printf:
+total 72
+-rw-r--r--  1 pallspic  2019   8820 Oct 26 12:11 utilities.c.o
+-rw-r--r--  1 pallspic  2019  11840 Oct 26 12:11 parsers.c.o
+-rw-r--r--  1 pallspic  2019  11100 Oct 26 12:11 ft_printf.c.o
+drwxr-xr-x  7 pallspic  2019    238 Oct 26 12:11 ..
+drwxr-xr-x  5 pallspic  2019    170 Oct 26 12:11 .
+
+./cmake-build-debug/CMakeFiles/ft_ls.dir/libft/ft_long_math:
+total 88
+-rw-r--r--  1 pallspic  2019  3880 Oct 26 12:11 ft_make_nline.c.o
+-rw-r--r--  1 pallspic  2019  5032 Oct 26 12:11 ft_long_utils.c.o
+-rw-r--r--  1 pallspic  2019  5088 Oct 26 12:11 ft_long_sum.c.o
+-rw-r--r--  1 pallspic  2019  3792 Oct 26 12:11 ft_long_mult.c.o
+-rw-r--r--  1 pallspic  2019  6012 Oct 26 12:11 ft_long_div.c.o
+-rw-r--r--  1 pallspic  2019  5056 Oct 26 12:11 ft_long_diff.c.o
+-rw-r--r--  1 pallspic  2019  3968 Oct 26 12:11 ft_long.c.o
+drwxr-xr-x  7 pallspic  2019   238 Oct 26 12:11 ..
+drwxr-xr-x  9 pallspic  2019   306 Oct 26 12:11 .
+
+./cmake-build-debug/CMakeFiles/ft_ls.dir/libft/ft_extra_funcs:
+total 112
+-rw-r--r--   1 pallspic  2019  3032 Oct 26 12:11 ft_strrev.c.o
+-rw-r--r--   1 pallspic  2019  3408 Oct 26 12:11 ft_strjoinfree.c.o
+-rw-r--r--   1 pallspic  2019  2632 Oct 26 12:11 ft_strfchr.c.o
+-rw-r--r--   1 pallspic  2019  3208 Oct 26 12:11 ft_strerase.c.o
+-rw-r--r--   1 pallspic  2019  3044 Oct 26 12:11 ft_pow.c.o
+-rw-r--r--   1 pallspic  2019  2776 Oct 26 12:11 ft_nsize.c.o
+-rw-r--r--   1 pallspic  2019  3020 Oct 26 12:11 ft_nmult.c.o
+-rw-r--r--   1 pallspic  2019  2672 Oct 26 12:11 ft_memsetloc.c.o
+-rw-r--r--   1 pallspic  2019  2716 Oct 26 12:11 ft_max.c.o
+-rw-r--r--   1 pallspic  2019  3836 Oct 26 12:11 ft_itoa_base.c.o
+-rw-r--r--   1 pallspic  2019  2316 Oct 26 12:11 ft_isupper.c.o
+-rw-r--r--   1 pallspic  2019  2316 Oct 26 12:11 ft_islower.c.o
+-rw-r--r--   1 pallspic  2019  2608 Oct 26 12:11 ft_get.c.o
+-rw-r--r--   1 pallspic  2019  2432 Oct 26 12:11 ft_abs.c.o
+drwxr-xr-x   7 pallspic  2019   238 Oct 26 12:11 ..
+drwxr-xr-x  16 pallspic  2019   544 Oct 26 12:11 .
+
+./cmake-build-debug/CMakeFiles/ft_ls.dir/libft/ft_base_funcs:
+total 480
+-rw-r--r--   1 pallspic  2019  2256 Oct 26 12:11 ft_toupper.c.o
+-rw-r--r--   1 pallspic  2019  2256 Oct 26 12:11 ft_tolower.c.o
+-rw-r--r--   1 pallspic  2019  3304 Oct 26 12:11 ft_strtrim.c.o
+-rw-r--r--   1 pallspic  2019  2888 Oct 26 12:11 ft_strsub.c.o
+-rw-r--r--   1 pallspic  2019  2372 Oct 26 12:11 ft_strstr.c.o
+-rw-r--r--   1 pallspic  2019  4488 Oct 26 12:11 ft_strsplit.c.o
+-rw-r--r--   1 pallspic  2019  2920 Oct 26 12:11 ft_strrchr.c.o
+-rw-r--r--   1 pallspic  2019  3252 Oct 26 12:11 ft_strnstr.c.o
+-rw-r--r--   1 pallspic  2019  2652 Oct 26 12:11 ft_strnew.c.o
+-rw-r--r--   1 pallspic  2019  2704 Oct 26 12:11 ft_strnequ.c.o
+-rw-r--r--   1 pallspic  2019  2792 Oct 26 12:11 ft_strncpy.c.o
+-rw-r--r--   1 pallspic  2019  3120 Oct 26 12:11 ft_strncmp.c.o
+-rw-r--r--   1 pallspic  2019  2812 Oct 26 12:11 ft_strncat.c.o
+-rw-r--r--   1 pallspic  2019  3016 Oct 26 12:11 ft_strmapi.c.o
+-rw-r--r--   1 pallspic  2019  2948 Oct 26 12:11 ft_strmap.c.o
+-rw-r--r--   1 pallspic  2019  2640 Oct 26 12:11 ft_strlen.c.o
+-rw-r--r--   1 pallspic  2019  3168 Oct 26 12:11 ft_strlcat.c.o
+-rw-r--r--   1 pallspic  2019  2596 Oct 26 12:11 ft_striteri.c.o
+-rw-r--r--   1 pallspic  2019  2496 Oct 26 12:11 ft_striter.c.o
+-rw-r--r--   1 pallspic  2019  2424 Oct 26 12:11 ft_strequ.c.o
+-rw-r--r--   1 pallspic  2019  2800 Oct 26 12:11 ft_strdup.c.o
+-rw-r--r--   1 pallspic  2019  2328 Oct 26 12:11 ft_strdel.c.o
+-rw-r--r--   1 pallspic  2019  2480 Oct 26 12:11 ft_strcpy.c.o
+-rw-r--r--   1 pallspic  2019  2568 Oct 26 12:11 ft_strcmp.c.o
+-rw-r--r--   1 pallspic  2019  2612 Oct 26 12:11 ft_strclr.c.o
+-rw-r--r--   1 pallspic  2019  2420 Oct 26 12:11 ft_strchr.c.o
+-rw-r--r--   1 pallspic  2019  2372 Oct 26 12:11 ft_strcat.c.o
+-rw-r--r--   1 pallspic  2019  2468 Oct 26 12:11 ft_putstr_fd.c.o
+-rw-r--r--   1 pallspic  2019  2384 Oct 26 12:11 ft_putstr.c.o
+-rw-r--r--   1 pallspic  2019  2664 Oct 26 12:11 ft_putnbr_fd.c.o
+-rw-r--r--   1 pallspic  2019  2224 Oct 26 12:11 ft_putnbr.c.o
+-rw-r--r--   1 pallspic  2019  2492 Oct 26 12:11 ft_putendl_fd.c.o
+-rw-r--r--   1 pallspic  2019  2300 Oct 26 12:11 ft_putendl.c.o
+-rw-r--r--   1 pallspic  2019  2316 Oct 26 12:11 ft_putchar_fd.c.o
+-rw-r--r--   1 pallspic  2019  2240 Oct 26 12:11 ft_putchar.c.o
+-rw-r--r--   1 pallspic  2019  2760 Oct 26 12:11 ft_memset.c.o
+-rw-r--r--   1 pallspic  2019  2832 Oct 26 12:11 ft_memmove.c.o
+-rw-r--r--   1 pallspic  2019  2280 Oct 26 12:11 ft_memdel.c.o
+-rw-r--r--   1 pallspic  2019  2696 Oct 26 12:11 ft_memcpy.c.o
+-rw-r--r--   1 pallspic  2019  2816 Oct 26 12:11 ft_memcmp.c.o
+-rw-r--r--   1 pallspic  2019  2872 Oct 26 12:11 ft_memchr.c.o
+-rw-r--r--   1 pallspic  2019  2840 Oct 26 12:11 ft_memccpy.c.o
+-rw-r--r--   1 pallspic  2019  2592 Oct 26 12:11 ft_memalloc.c.o
+-rw-r--r--   1 pallspic  2019  3108 Oct 26 12:11 ft_lstnew.c.o
+-rw-r--r--   1 pallspic  2019  2892 Oct 26 12:11 ft_lstmap.c.o
+-rw-r--r--   1 pallspic  2019  2816 Oct 26 12:11 ft_lstiter.c.o
+-rw-r--r--   1 pallspic  2019  2844 Oct 26 12:11 ft_lstdelone.c.o
+-rw-r--r--   1 pallspic  2019  2892 Oct 26 12:11 ft_lstdel.c.o
+-rw-r--r--   1 pallspic  2019  2704 Oct 26 12:11 ft_lstadd.c.o
+-rw-r--r--   1 pallspic  2019  2412 Oct 26 12:11 ft_itoa.c.o
+-rw-r--r--   1 pallspic  2019  2440 Oct 26 12:11 ft_isspace.c.o
+-rw-r--r--   1 pallspic  2019  2244 Oct 26 12:11 ft_isprint.c.o
+-rw-r--r--   1 pallspic  2019  2244 Oct 26 12:11 ft_isdigit.c.o
+-rw-r--r--   1 pallspic  2019  2244 Oct 26 12:11 ft_isascii.c.o
+-rw-r--r--   1 pallspic  2019  2296 Oct 26 12:11 ft_isalpha.c.o
+-rw-r--r--   1 pallspic  2019  2352 Oct 26 12:11 ft_isalnum.c.o
+-rw-r--r--   1 pallspic  2019  2468 Oct 26 12:11 ft_bzero.c.o
+-rw-r--r--   1 pallspic  2019  3428 Oct 26 12:11 ft_atoi.c.o
+drwxr-xr-x   7 pallspic  2019   238 Oct 26 12:11 ..
+-rw-r--r--   1 pallspic  2019  2668 Feb 15 20:44 ft_strjoin.c.o
+drwxr-xr-x  61 pallspic  2019  2074 Feb 15 20:44 .
+
+./.idea:
+total 96
+-rw-r--r--   1 pallspic  2019    180 Oct 26 12:13 vcs.xml
+-rw-r--r--   1 pallspic  2019    262 Oct 26 12:13 modules.xml
+-rw-r--r--   1 pallspic  2019    240 Oct 26 12:13 misc.xml
+-rw-r--r--   1 pallspic  2019     97 Oct 26 12:13 ft_ls.iml
+-rw-r--r--   1 pallspic  2019  29522 Feb 24 17:35 workspace.xml
+drwxr-xr-x  23 pallspic  2019    782 Feb 24 17:35 ..
+drwxr-xr-x   7 pallspic  2019    238 Feb 24 17:35 .
+
+./.git:
+total 112
+drwxr-xr-x    3 pallspic  2019    102 Oct 26 12:11 info
+drwxr-xr-x   12 pallspic  2019    408 Oct 26 12:11 hooks
+-rw-r--r--    1 pallspic  2019     73 Oct 26 12:11 description
+drwxr-xr-x    2 pallspic  2019     68 Oct 26 12:11 branches
+drwxr-xr-x    5 pallspic  2019    170 Oct 26 12:11 refs
+-rw-r--r--    1 pallspic  2019    107 Oct 26 12:11 packed-refs
+drwxr-xr-x    4 pallspic  2019    136 Oct 26 12:11 logs
+-rw-r--r--    1 pallspic  2019    312 Oct 26 12:11 config
+-rw-r--r--    1 pallspic  2019     23 Oct 26 12:11 HEAD
+drwxr-xr-x  130 pallspic  2019   4420 Feb 16 07:03 objects
+-rw-r--r--    1 pallspic  2019     15 Feb 16 07:03 COMMIT_EDITMSG
+-rw-r--r--    1 pallspic  2019  36354 Feb 24 17:18 index
+drwxr-xr-x   23 pallspic  2019    782 Feb 24 17:35 ..
+drwxr-xr-x   14 pallspic  2019    476 Feb 24 17:35 .
+
+./.git/info:
+total 8
+-rw-r--r--   1 pallspic  2019  240 Oct 26 12:11 exclude
+drwxr-xr-x   3 pallspic  2019  102 Oct 26 12:11 .
+drwxr-xr-x  14 pallspic  2019  476 Feb 24 17:35 ..
+
+./.git/hooks:
+total 88
+-rwxr-xr-x   1 pallspic  2019  3610 Oct 26 12:11 update.sample
+-rwxr-xr-x   1 pallspic  2019  1239 Oct 26 12:11 prepare-commit-msg.sample
+-rwxr-xr-x   1 pallspic  2019   544 Oct 26 12:11 pre-receive.sample
+-rwxr-xr-x   1 pallspic  2019  4898 Oct 26 12:11 pre-rebase.sample
+-rwxr-xr-x   1 pallspic  2019  1348 Oct 26 12:11 pre-push.sample
+-rwxr-xr-x   1 pallspic  2019  1642 Oct 26 12:11 pre-commit.sample
+-rwxr-xr-x   1 pallspic  2019   424 Oct 26 12:11 pre-applypatch.sample
+-rwxr-xr-x   1 pallspic  2019   189 Oct 26 12:11 post-update.sample
+-rwxr-xr-x   1 pallspic  2019   896 Oct 26 12:11 commit-msg.sample
+-rwxr-xr-x   1 pallspic  2019   478 Oct 26 12:11 applypatch-msg.sample
+drwxr-xr-x  12 pallspic  2019   408 Oct 26 12:11 .
+drwxr-xr-x  14 pallspic  2019   476 Feb 24 17:35 ..
+
+./.git/branches:
+total 0
+drwxr-xr-x   2 pallspic  2019   68 Oct 26 12:11 .
+drwxr-xr-x  14 pallspic  2019  476 Feb 24 17:35 ..
+
+./.git/refs:
+total 0
+drwxr-xr-x   2 pallspic  2019   68 Oct 26 12:11 tags
+drwxr-xr-x   3 pallspic  2019  102 Oct 26 12:11 remotes
+drwxr-xr-x   5 pallspic  2019  170 Oct 26 12:11 .
+drwxr-xr-x   3 pallspic  2019  102 Feb 16 07:03 heads
+drwxr-xr-x  14 pallspic  2019  476 Feb 24 17:35 ..
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x  2 pallspic  2019   68 Oct 26 12:11 .
+drwxr-xr-x  5 pallspic  2019  170 Oct 26 12:11 ..
+
+./.git/refs/remotes:
+total 0
+drwxr-xr-x  5 pallspic  2019  170 Oct 26 12:11 ..
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 12:11 .
+drwxr-xr-x  4 pallspic  2019  136 Feb 16 07:04 origin
+
+./.git/refs/remotes/origin:
+total 16
+-rw-r--r--  1 pallspic  2019   32 Oct 26 12:11 HEAD
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 12:11 ..
+-rw-r--r--  1 pallspic  2019   41 Feb 16 07:04 master
+drwxr-xr-x  4 pallspic  2019  136 Feb 16 07:04 .
+
+./.git/refs/heads:
+total 8
+drwxr-xr-x  5 pallspic  2019  170 Oct 26 12:11 ..
+-rw-r--r--  1 pallspic  2019   41 Feb 16 07:03 master
+drwxr-xr-x  3 pallspic  2019  102 Feb 16 07:03 .
+
+./.git/logs:
+total 8
+drwxr-xr-x   4 pallspic  2019  136 Oct 26 12:11 refs
+drwxr-xr-x   4 pallspic  2019  136 Oct 26 12:11 .
+-rw-r--r--   1 pallspic  2019  530 Feb 16 07:03 HEAD
+drwxr-xr-x  14 pallspic  2019  476 Feb 24 17:35 ..
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 12:11 remotes
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 12:11 heads
+drwxr-xr-x  4 pallspic  2019  136 Oct 26 12:11 ..
+drwxr-xr-x  4 pallspic  2019  136 Oct 26 12:11 .
+
+./.git/logs/refs/remotes:
+total 0
+drwxr-xr-x  4 pallspic  2019  136 Oct 26 12:11 ..
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 12:11 .
+drwxr-xr-x  4 pallspic  2019  136 Oct 26 14:58 origin
+
+./.git/logs/refs/remotes/origin:
+total 16
+-rw-r--r--  1 pallspic  2019  199 Oct 26 12:11 HEAD
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 12:11 ..
+drwxr-xr-x  4 pallspic  2019  136 Oct 26 14:58 .
+-rw-r--r--  1 pallspic  2019  318 Feb 16 07:04 master
+
+./.git/logs/refs/heads:
+total 8
+drwxr-xr-x  4 pallspic  2019  136 Oct 26 12:11 ..
+drwxr-xr-x  3 pallspic  2019  102 Oct 26 12:11 .
+-rw-r--r--  1 pallspic  2019  530 Feb 16 07:03 master
+
+./.git/objects:
+total 0
+drwxr-xr-x    2 pallspic  2019    68 Oct 26 12:11 info
+drwxr-xr-x    4 pallspic  2019   136 Oct 26 12:11 pack
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 f9
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 f0
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 d4
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 c0
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 b6
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 94
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 77
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 58
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 42
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 29
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 07
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 06
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 e8
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 98
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 75
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 4e
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 1b
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 02:51 e3
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 fd
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 fc
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 f8
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 f4
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 ed
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 ec
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 e7
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 e5
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 e0
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 df
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 da
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 d7
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 d0
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 ca
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 c9
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 c8
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 c2
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 c1
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 bf
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 bc
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 b9
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 b2
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 b1
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 af
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 ad
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 a4
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 a3
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 9f
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 9e
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 9d
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 9b
+drwxr-xr-x    5 pallspic  2019   170 Feb 16 07:03 9a
+drwxr-xr-x    5 pallspic  2019   170 Feb 16 07:03 95
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 8e
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 8d
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 88
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 86
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 85
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 84
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 80
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 7f
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 7e
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 7c
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 71
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 6e
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 6d
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 69
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 68
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 67
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 66
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 65
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 63
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 5c
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 5b
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 5a
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 56
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 54
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 53
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 50
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 4c
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 44
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 40
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 3d
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 3b
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 3a
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 36
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 34
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 32
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 31
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 30
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 2e
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 2c
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 2b
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 2a
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 28
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 27
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 25
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 24
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 21
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 20
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 1f
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 17
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 14
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 13
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 11
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 0e
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 09
+drwxr-xr-x    5 pallspic  2019   170 Feb 16 07:03 05
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 02
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 00
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 e2
+drwxr-xr-x    5 pallspic  2019   170 Feb 16 07:03 e1
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 dd
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 d9
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 d8
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 d3
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 d2
+drwxr-xr-x    6 pallspic  2019   204 Feb 16 07:03 cc
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 97
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 87
+drwxr-xr-x    6 pallspic  2019   204 Feb 16 07:03 6a
+drwxr-xr-x    6 pallspic  2019   204 Feb 16 07:03 5f
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 4b
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 4a
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 48
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 33
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 22
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 1c
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 .
+drwxr-xr-x   14 pallspic  2019   476 Feb 24 17:35 ..
+
+./.git/objects/info:
+total 0
+drwxr-xr-x    2 pallspic  2019    68 Oct 26 12:11 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/pack:
+total 2280
+-r--r--r--    1 pallspic  2019    11740 Oct 26 12:11 pack-fdb0e415057160952eb23965efb2bd3bdf5a6005.idx
+drwxr-xr-x    4 pallspic  2019      136 Oct 26 12:11 .
+-r--r--r--    1 pallspic  2019  1152754 Feb 16 03:21 pack-fdb0e415057160952eb23965efb2bd3bdf5a6005.pack
+drwxr-xr-x  130 pallspic  2019     4420 Feb 16 07:03 ..
+
+./.git/objects/f9:
+total 8
+-r--r--r--    1 pallspic  2019  3526 Oct 26 14:58 53fb5e0ffd4cf5e2a959abcb2517b74359c343
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/f0:
+total 8
+-r--r--r--    1 pallspic  2019   104 Oct 26 14:58 8604bb65b25149b195f9e9f282f9683a428592
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/d4:
+total 8
+-r--r--r--    1 pallspic  2019  1147 Oct 26 14:58 b7b6df2281eb9e5eedfc61316b7b40d7dc9fd6
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/c0:
+total 16
+-r--r--r--    1 pallspic  2019  5883 Oct 26 14:58 5c3c2db17789b67e8de53165d50804fc3b99bb
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/b6:
+total 32
+-r--r--r--    1 pallspic  2019  14262 Oct 26 14:58 4af1509a04bff0e6a592f4f7a41d9f96d1951f
+drwxr-xr-x    3 pallspic  2019    102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019   4420 Feb 16 07:03 ..
+
+./.git/objects/94:
+total 8
+-r--r--r--    1 pallspic  2019   155 Oct 26 14:58 a25f7f4cb416c083d265558da75d457237d671
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/77:
+total 8
+-r--r--r--    1 pallspic  2019  2958 Oct 26 14:58 6fac05576898df73e88e3ae15832be387fc72b
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/58:
+total 8
+-r--r--r--    1 pallspic  2019   393 Oct 26 14:58 3388c551139ca0d144cf643c5a81e52889019b
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/42:
+total 8
+-r--r--r--    1 pallspic  2019   203 Oct 26 14:58 14560cf6f231b101fe97c3024f12ce070d0afc
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/29:
+total 8
+-r--r--r--    1 pallspic  2019   681 Oct 26 14:58 35d6524aa397a3db9c8dc2f10bd994e0fb6358
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/07:
+total 8
+-r--r--r--    1 pallspic  2019   185 Oct 26 14:58 32f00cc1b93b3552741638d80143810e5c637a
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/06:
+total 48
+-r--r--r--    1 pallspic  2019  23276 Oct 26 14:58 ae7462ae914815b07cc502e7c65bb5316d4692
+drwxr-xr-x    3 pallspic  2019    102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019   4420 Feb 16 07:03 ..
+
+./.git/objects/e8:
+total 8
+-r--r--r--    1 pallspic  2019    80 Oct 26 14:58 d4482d3086e2a2fa70690abd8e2ca27c8c1dcc
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/98:
+total 8
+-r--r--r--    1 pallspic  2019    49 Oct 26 14:58 b9b6a3d27431272f068f4974601adacd44ccc1
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/75:
+total 8
+-r--r--r--    1 pallspic  2019   254 Oct 26 14:58 190737a96f5687e91749f62cfcafa88dc374ed
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/4e:
+total 8
+-r--r--r--    1 pallspic  2019    90 Oct 26 14:58 3c2c657dc302e8f470e1cd74fe865c0c5c8c3a
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/1b:
+total 8
+-r--r--r--    1 pallspic  2019   513 Oct 26 14:58 b75aaecaf9e3c09bff67706a920a7a65472969
+drwxr-xr-x    3 pallspic  2019   102 Oct 26 14:58 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/e3:
+total 8
+-r--r--r--    1 pallspic  2019    66 Feb 16 02:51 8bf1f031b73e69a48dc3a5568475d4a719a529
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 02:51 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/fd:
+total 8
+-r--r--r--    1 pallspic  2019   336 Feb 16 07:03 4a90271ad58ea450b5c2a43d8f9da6ef136986
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/fc:
+total 8
+-r--r--r--    1 pallspic  2019   547 Feb 16 07:03 603e8bd96b887b69846cf4027d90846c72e12f
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/f8:
+total 8
+-r--r--r--    1 pallspic  2019   325 Feb 16 07:03 b58decbbccd117b6aa2c198ecc02d95132ac88
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/f4:
+total 16
+-r--r--r--    1 pallspic  2019   380 Feb 16 07:03 5fed04d52f950cb59a4af151d0ac81e0116aa9
+-r--r--r--    1 pallspic  2019   358 Feb 16 07:03 4b9898bde71105fe83d009967ccc5175ae97ad
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/ed:
+total 8
+-r--r--r--    1 pallspic  2019  1258 Feb 16 07:03 6aa0dc45d2e529b333b6cf3b0c3155167a703c
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/ec:
+total 8
+-r--r--r--    1 pallspic  2019   395 Feb 16 07:03 cd03a767327126871ba77feac4f694950ee1bb
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/e7:
+total 16
+-r--r--r--    1 pallspic  2019   368 Feb 16 07:03 a640dd24e312d79d329d6b9563568aeb033a0b
+-r--r--r--    1 pallspic  2019   373 Feb 16 07:03 08b75149f88c89e00e89d2340dee8fe4f3e909
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/e5:
+total 16
+-r--r--r--    1 pallspic  2019   474 Feb 16 07:03 d6c4402f87baadb10c83c6e7c1bfb79a85aaa1
+-r--r--r--    1 pallspic  2019   393 Feb 16 07:03 686f8994ad5133d835ad3073433c1ef12a7890
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/e0:
+total 8
+-r--r--r--    1 pallspic  2019   384 Feb 16 07:03 21fe53897b5fec271031a0d8a928bf6202bc0b
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/df:
+total 8
+-r--r--r--    1 pallspic  2019   947 Feb 16 07:03 10fec5ebe86eb1463c4ea057793f7749c38e78
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/da:
+total 8
+-r--r--r--    1 pallspic  2019   460 Feb 16 07:03 17382713639800bcfdc3f50f68944bc61a4b44
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/d7:
+total 16
+-r--r--r--    1 pallspic  2019   452 Oct 26 14:58 2905853411750d3032adbc889963912e5334ba
+-r--r--r--    1 pallspic  2019   580 Feb 16 07:03 7ef60abc94771dcf4ed361862db320ce426843
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/d0:
+total 8
+-r--r--r--    1 pallspic  2019  1554 Feb 16 07:03 2137b662b38a3ac0a375e6c228c680e149d8c2
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/ca:
+total 8
+-r--r--r--    1 pallspic  2019   525 Feb 16 07:03 893a280d08120e90b83902a5f0db720c14220b
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/c9:
+total 16
+-r--r--r--    1 pallspic  2019  2617 Feb 16 07:03 9faae53ff404ee292e19017b03aeef7bc16228
+-r--r--r--    1 pallspic  2019   282 Feb 16 07:03 450175642268cd7fbfc0ecdcda91256d8daac3
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/c8:
+total 8
+-r--r--r--    1 pallspic  2019   494 Feb 16 07:03 9298c66d7aae469addc86581d2d00f63467a03
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/c2:
+total 8
+-r--r--r--    1 pallspic  2019  1391 Feb 16 07:03 998643af0900ca4d6aa040da055ae3ea0412c5
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/c1:
+total 16
+-r--r--r--    1 pallspic  2019   853 Feb 16 02:52 c02b16df0b37947a11f64317dbfbe64b1ab9cf
+-r--r--r--    1 pallspic  2019  1110 Feb 16 07:03 01ec8f427b10b8fe3a56f96eaa011db68d0a3c
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/bf:
+total 16
+-r--r--r--    1 pallspic  2019   391 Feb 16 07:03 332a6be4f1090e87b223626adf786fd976b59d
+-r--r--r--    1 pallspic  2019  2075 Feb 16 07:03 03f607f3db7c69ef6c5db786ff6d496acaf6fb
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/bc:
+total 16
+-r--r--r--    1 pallspic  2019   178 Oct 26 14:58 e66b4ec7e6cd0fa8a13bfe1a9cfcba9e3d57c1
+-r--r--r--    1 pallspic  2019   361 Feb 16 07:03 2bde81ecb90e5cf4aa67289da89751b32beaa7
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/b9:
+total 8
+-r--r--r--    1 pallspic  2019   315 Feb 16 07:03 2ce3f2ad9c7c47d149d25c446174286bcc0c2e
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/b2:
+total 8
+-r--r--r--    1 pallspic  2019   389 Feb 16 07:03 af3d5d259cd2524b6533eece7b9b482e422765
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/b1:
+total 8
+-r--r--r--    1 pallspic  2019   415 Feb 16 07:03 c993c083409e6dc94e7f078678e85d6f272bf6
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/af:
+total 16
+-r--r--r--    1 pallspic  2019   456 Oct 26 14:58 cdea2a1e9849e1c3120b133413b463a52318ca
+-r--r--r--    1 pallspic  2019   358 Feb 16 07:03 f0a7e8404ce82ff9de5c512d06ba1b21a77395
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/ad:
+total 8
+-r--r--r--    1 pallspic  2019   784 Feb 16 07:03 6ccef3beb4e334f3876b40379c158536f40849
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/a4:
+total 16
+-r--r--r--    1 pallspic  2019   404 Feb 16 07:03 c95becf4b5de26e3902a906e3bf46b4a73a2e0
+-r--r--r--    1 pallspic  2019   381 Feb 16 07:03 c8c8ddeea444470af72f633e846e419041af9f
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/a3:
+total 16
+-r--r--r--    1 pallspic  2019  4799 Feb 16 07:03 914f12736a3e4ea4e1f61c8390072cd6ef7218
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/9f:
+total 8
+-r--r--r--    1 pallspic  2019   654 Feb 16 07:03 624fb887c5798b60a11002d8a6187bedd15a6a
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/9e:
+total 24
+-r--r--r--    1 pallspic  2019  8871 Feb 16 07:03 71e803d94f231cb44f3fbbd6b18b7965500d6f
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/9d:
+total 8
+-r--r--r--    1 pallspic  2019   794 Feb 16 07:03 8263b57d778ffd57693e3105a65ab16f15fecd
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/9b:
+total 8
+-r--r--r--    1 pallspic  2019   446 Feb 16 07:03 ecaaa42200a753d568bc5d81dbd355423594b4
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/9a:
+total 24
+-r--r--r--    1 pallspic  2019   168 Oct 26 14:58 1c7decfe3ff4f6a9ae22d40518dfea2c217a04
+-r--r--r--    1 pallspic  2019   395 Feb 16 07:03 c990937956743f3eeeb3823a806b07ef205c10
+-r--r--r--    1 pallspic  2019   546 Feb 16 07:03 438576944a4a791903c179a87415eacb677acc
+drwxr-xr-x    5 pallspic  2019   170 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/95:
+total 96
+-r--r--r--    1 pallspic  2019  13994 Oct 26 14:58 7bc4bef6c6c17d266556e5fe71dedc9acf53e8
+-r--r--r--    1 pallspic  2019    427 Feb 16 07:03 f74f7dd1a8214da40a7a911f03af8bad5e0774
+-r--r--r--    1 pallspic  2019  25204 Feb 16 07:03 d8dfdb208e22950aa927eae41af523459c6a9c
+drwxr-xr-x    5 pallspic  2019    170 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019   4420 Feb 16 07:03 ..
+
+./.git/objects/8e:
+total 8
+-r--r--r--    1 pallspic  2019  1323 Feb 16 07:03 bc661a9db504f97a152c02dac3a65f1d9b4449
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/8d:
+total 32
+-r--r--r--    1 pallspic  2019  15974 Feb 16 07:03 8d4db4d3162cc31bbdfdbf505b245a28f55b54
+drwxr-xr-x    3 pallspic  2019    102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019   4420 Feb 16 07:03 ..
+
+./.git/objects/88:
+total 64
+-r--r--r--    1 pallspic  2019    183 Oct 26 14:58 22db8f1c2b8ceffb5d86c69dd1952cf6552980
+-r--r--r--    1 pallspic  2019  27468 Feb 16 07:03 3160d5f9c87ff6c6647fa56b5e800cf08ef7fc
+drwxr-xr-x    4 pallspic  2019    136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019   4420 Feb 16 07:03 ..
+
+./.git/objects/86:
+total 24
+-r--r--r--    1 pallspic  2019  4494 Feb 16 07:03 720cc796dd36d4b12b14112a2ca5bbc6eb4e85
+-r--r--r--    1 pallspic  2019    18 Feb 16 07:03 43cf6debacb299302a004ebf3801fc78c54a3a
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/85:
+total 16
+-r--r--r--    1 pallspic  2019   433 Feb 16 07:03 fdbafc053491f2faa0c73c029c53ff60cc82b6
+-r--r--r--    1 pallspic  2019   866 Feb 16 07:03 89e75d6e708fa1384df09971f41c9910f293ef
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/84:
+total 8
+-r--r--r--    1 pallspic  2019   319 Feb 16 07:03 f6ec1709f08e8a2e2e183a15aef02009198c92
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/80:
+total 16
+-r--r--r--    1 pallspic  2019  1096 Feb 16 07:03 bbf0c9d18349c1c91ba377788af7a84be3d156
+-r--r--r--    1 pallspic  2019  3659 Feb 16 07:03 3342b464366128f9cbdd3adfaa0618eed2b0e8
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/7f:
+total 8
+-r--r--r--    1 pallspic  2019   354 Feb 16 07:03 66656b4a7cdf527efe64083cac37fddec00c7f
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/7e:
+total 8
+-r--r--r--    1 pallspic  2019   929 Feb 16 07:03 151ddfde76056f50be0bdfc24b141dfee23db1
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/7c:
+total 80
+-r--r--r--    1 pallspic  2019  33702 Oct 26 14:58 2f3917958786075e96b186c56b8f7d91bb4d8a
+-r--r--r--    1 pallspic  2019    344 Feb 16 07:03 11af6576b7f7b6cd2fa208dc69c2ae316a2848
+drwxr-xr-x    4 pallspic  2019    136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019   4420 Feb 16 07:03 ..
+
+./.git/objects/71:
+total 8
+-r--r--r--    1 pallspic  2019   933 Feb 16 07:03 15193c0b5bf339b78d106072478fc928e3cad8
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/6e:
+total 8
+-r--r--r--    1 pallspic  2019   397 Feb 16 07:03 aafd7a1e26525f0ce67425ed4db6c9279fd6af
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/6d:
+total 8
+-r--r--r--    1 pallspic  2019   402 Feb 16 07:03 aaf2e2c08269a2825470662afce0d20f5e18ee
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/69:
+total 16
+-r--r--r--    1 pallspic  2019   481 Feb 16 07:03 8025c158ce7a4aa34596c3fd9ad0d20ddf9a52
+-r--r--r--    1 pallspic  2019   368 Feb 16 07:03 b44922b5dc65796e24596da775dbee61867374
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/68:
+total 8
+-r--r--r--    1 pallspic  2019  1167 Feb 16 07:03 a8ceb61f6219ba5c51fedc2a1c3fd2f54c0faf
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/67:
+total 8
+-r--r--r--    1 pallspic  2019   350 Feb 16 07:03 26c55cec431410c63d5054ebde3defc60ebe78
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/66:
+total 8
+-r--r--r--    1 pallspic  2019   393 Feb 16 07:03 ccd2b79da1d6b670a8ee4d65491e490ceec3a7
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/65:
+total 8
+-r--r--r--    1 pallspic  2019   369 Feb 16 07:03 66b0c0955374591945f060dac574faa164e65f
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/63:
+total 8
+-r--r--r--    1 pallspic  2019   368 Feb 16 07:03 ded3c077ee58b2476701dfbb13c01c7a0480c2
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/5c:
+total 8
+-r--r--r--    1 pallspic  2019   430 Feb 16 07:03 6ba95e7d327ad4b596646fd2ce40335ceef10d
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/5b:
+total 8
+-r--r--r--    1 pallspic  2019   382 Feb 16 07:03 66ac49a6d085ff99e878e7350ae5b1208ca9b5
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/5a:
+total 8
+-r--r--r--    1 pallspic  2019   391 Feb 16 07:03 26313b9e0b65559a369c393c1245859719c7d7
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/56:
+total 16
+-r--r--r--    1 pallspic  2019  5134 Feb 16 07:03 39488331034dc4d9cba06e41f8081d2894b136
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/54:
+total 16
+-r--r--r--    1 pallspic  2019   775 Feb 16 07:03 c9c3996df6081d13cb1f77c47c2a6b86091694
+-r--r--r--    1 pallspic  2019   450 Feb 16 07:03 895af7b2ee3ad13393a5c002b00a1a524b64cf
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/53:
+total 8
+-r--r--r--    1 pallspic  2019  1373 Feb 16 07:03 86ce1d494aedd2a814b46d8be7fd5d7bfbe5d9
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/50:
+total 8
+-r--r--r--    1 pallspic  2019   479 Feb 16 07:03 f40e4554a3515639a3ed04f519846eae458544
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/4c:
+total 8
+-r--r--r--    1 pallspic  2019   421 Feb 16 07:03 a023a622650e159bade282f929fe523af0c434
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/44:
+total 8
+-r--r--r--    1 pallspic  2019   320 Feb 16 07:03 af047882fe64cd9c3cebfcb3ecaef6455c69fb
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/40:
+total 8
+-r--r--r--    1 pallspic  2019   291 Feb 16 07:03 a379f0189c2d755ef45783aeb1a0f9e3cf0c49
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/3d:
+total 8
+-r--r--r--    1 pallspic  2019   597 Feb 16 07:03 3bd5cb50abc115cae6369c7087b18097be9774
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/3b:
+total 8
+-r--r--r--    1 pallspic  2019   521 Feb 16 07:03 4f7316d85c56cc56e4e0f984ace104222a44dc
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/3a:
+total 8
+-r--r--r--    1 pallspic  2019   320 Feb 16 07:03 5a4c54b1ebfc6ed8b90bcc2654b56121376698
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/36:
+total 16
+-r--r--r--    1 pallspic  2019   427 Feb 16 07:03 da0aa657efc63b7b01ba3dc11c23d369604b5e
+-r--r--r--    1 pallspic  2019  1375 Feb 16 07:03 3efb29df6de8a220d11c28c28d20cabfdf3676
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/34:
+total 16
+-r--r--r--    1 pallspic  2019   417 Feb 16 07:03 2167624b47c430382a132f8f7c9df5130d6439
+-r--r--r--    1 pallspic  2019   349 Feb 16 07:03 0001a80bff9f2789dc2e553dbfd42b72b50610
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/32:
+total 24
+-r--r--r--    1 pallspic  2019  9714 Feb 16 07:03 b2c434f6e75caa606a43beb74f52c48fb3015f
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/31:
+total 32
+-r--r--r--    1 pallspic  2019  15905 Feb 16 07:03 dae5e19a71317ae099db0459dcde9685f779a2
+drwxr-xr-x    3 pallspic  2019    102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019   4420 Feb 16 07:03 ..
+
+./.git/objects/30:
+total 8
+-r--r--r--    1 pallspic  2019   487 Feb 16 07:03 5a49f45a8546d5eeb42a487636fd0d5891a7c5
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/2e:
+total 8
+-r--r--r--    1 pallspic  2019  1154 Feb 16 07:03 a890a550d4a71f79ddd3f065441a08282692b7
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/2c:
+total 8
+-r--r--r--    1 pallspic  2019   377 Feb 16 07:03 2edaeb3554e8196b5312164560bdb44099804c
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/2b:
+total 8
+-r--r--r--    1 pallspic  2019   331 Feb 16 07:03 f2e01b546bedad22300594745a22f5a95feba0
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/2a:
+total 72
+-r--r--r--    1 pallspic  2019  34392 Feb 16 07:03 13a031f083185ae7058e0dfd78ccdf01ef67c7
+drwxr-xr-x    3 pallspic  2019    102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019   4420 Feb 16 07:03 ..
+
+./.git/objects/28:
+total 16
+-r--r--r--    1 pallspic  2019   341 Feb 16 07:03 85ffa85e7600f70770683e17d2c2b9034b939a
+-r--r--r--    1 pallspic  2019  1287 Feb 16 07:03 7f9fff183c2a38ac565ab785d3424181a68ff7
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/27:
+total 8
+-r--r--r--    1 pallspic  2019   332 Feb 16 07:03 2cf8a4a3118325d4b9bee273acb0f13a1fdbe8
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/25:
+total 8
+-r--r--r--    1 pallspic  2019   699 Feb 16 07:03 aee64e4e1b248413f52dd193dfc81802ae2d82
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/24:
+total 8
+-r--r--r--    1 pallspic  2019   632 Feb 16 07:03 afefe86738ae3c85dd51928af67df27434e787
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/21:
+total 8
+-r--r--r--    1 pallspic  2019   355 Feb 16 07:03 355bf08155e5dbff555e74bbc537a88ee6d5d2
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/20:
+total 8
+-r--r--r--    1 pallspic  2019   830 Feb 16 07:03 48d9ad6e6bb6a255852d6d96ef367789482e16
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/1f:
+total 8
+-r--r--r--    1 pallspic  2019   531 Feb 16 07:03 748378d3d6081104c8ea2902402afc70ddf9ed
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/17:
+total 8
+-r--r--r--    1 pallspic  2019   364 Feb 16 07:03 dffd2ca21ebfd586cde060d5f858a6e1d0d068
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/14:
+total 16
+-r--r--r--    1 pallspic  2019    47 Oct 26 14:58 7477341a4441df7ebd374ddcb9ac6b31dbdb5b
+-r--r--r--    1 pallspic  2019   357 Feb 16 07:03 4197b4dffe093845dce308be106a125c40d237
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/13:
+total 8
+-r--r--r--    1 pallspic  2019   390 Feb 16 07:03 a278a30c00a7dce5c362990cb93b6167fb7840
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/11:
+total 16
+-r--r--r--    1 pallspic  2019   319 Oct 26 14:58 f560bb91af0d44ce858b9008fd8e1fb57a7489
+-r--r--r--    1 pallspic  2019   431 Feb 16 07:03 32798a957cce72de222d53e746151ea3ab330f
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/0e:
+total 16
+-r--r--r--    1 pallspic  2019   404 Feb 16 07:03 d9761214200cf7ceee0579a6b77a87e14d7956
+-r--r--r--    1 pallspic  2019   319 Feb 16 07:03 7464fffa6ad0db1b01cc2924841880a3f317fd
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/09:
+total 8
+-r--r--r--    1 pallspic  2019   439 Feb 16 07:03 2bd34bf86e7940c98d9616d11253a90cf69a06
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/05:
+total 32
+-r--r--r--    1 pallspic  2019  5022 Feb 16 07:03 c22a09a30ad8a8174f87ac27839194970cdc32
+-r--r--r--    1 pallspic  2019  1356 Feb 16 07:03 8d30bafba4c3fdd7804cd27004e6e95e46d6b8
+-r--r--r--    1 pallspic  2019   319 Feb 16 07:03 2803c18967c924a792d07cc2eac70bcd1a4d3b
+drwxr-xr-x    5 pallspic  2019   170 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/02:
+total 8
+-r--r--r--    1 pallspic  2019   367 Feb 16 07:03 da2f577e8a34a9d95e841f65c9e4052af2c101
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/00:
+total 8
+-r--r--r--    1 pallspic  2019   679 Feb 16 07:03 709e1b4f5f9600c41b3db39e9f9a49da47c1ad
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+
+./.git/objects/e2:
+total 8
+-r--r--r--    1 pallspic  2019    80 Feb 16 07:03 f0803e85aa3f6913fd25b23b1dfa2b155cc126
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+
+./.git/objects/e1:
+total 24
+-r--r--r--    1 pallspic  2019   449 Feb 16 07:03 b0ab2634d6c63d164bc029d0edbff8ba6e6540
+-r--r--r--    1 pallspic  2019    50 Feb 16 07:03 ee15e350cb32a65ef949f37e2e61d70bc2e3df
+-r--r--r--    1 pallspic  2019   254 Feb 16 07:03 5237a1afb04c17f7b64aaa493cec28e391b58f
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    5 pallspic  2019   170 Feb 16 07:03 .
+
+./.git/objects/dd:
+total 8
+-r--r--r--    1 pallspic  2019   480 Feb 16 07:03 46ad3f17e374e9c67072360d7facf6e3e0339b
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+
+./.git/objects/d9:
+total 16
+-r--r--r--    1 pallspic  2019   971 Feb 16 07:03 22cebfa593f6f9c5e1aed4a0e006d0becadbbc
+-r--r--r--    1 pallspic  2019   340 Feb 16 07:03 44c511c8b7a09780b0311b71199447775219a7
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+
+./.git/objects/d8:
+total 8
+-r--r--r--    1 pallspic  2019    86 Feb 16 07:03 1046b742a4fd209a443c0a99c8419f03319570
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+
+./.git/objects/d3:
+total 16
+-r--r--r--    1 pallspic  2019   336 Feb 16 07:03 5c560482a7a2d8d65c833652216aadb7a37ba6
+-r--r--r--    1 pallspic  2019   177 Feb 16 07:03 a944c9bb0416eebe2bc026f814acb2f8bd8d19
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+
+./.git/objects/d2:
+total 8
+-r--r--r--    1 pallspic  2019    48 Feb 16 07:03 eac015cd757b8aac4d7fba8f6ecfb1ef546b6b
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+
+./.git/objects/cc:
+total 32
+-r--r--r--    1 pallspic  2019  3570 Oct 26 14:58 ede3ccf7f42b89e77df6a2dfdd9a66565a6c7a
+-r--r--r--    1 pallspic  2019   422 Oct 26 14:58 a8482ce4e5d03fe99088819e73b038c5f569c4
+-r--r--r--    1 pallspic  2019  1933 Feb 16 07:03 114022c4828288cfdb38b38bc914fb5214b991
+-r--r--r--    1 pallspic  2019    50 Feb 16 07:03 8edf7d40fde752769529868858baf32836bd4a
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    6 pallspic  2019   204 Feb 16 07:03 .
+
+./.git/objects/97:
+total 8
+-r--r--r--    1 pallspic  2019    90 Feb 16 07:03 d9533ca3752b6701f1690b1ac11fd5f82befb1
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+
+./.git/objects/87:
+total 8
+-r--r--r--    1 pallspic  2019   514 Feb 16 07:03 b6de02be9ae24dd45f8e2010261dd815ee8d34
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+
+./.git/objects/6a:
+total 32
+-r--r--r--    1 pallspic  2019    50 Oct 26 14:58 306eb1fef6736ac98b055e8218814b56b4d391
+-r--r--r--    1 pallspic  2019   409 Feb 16 07:03 fec4424e88a3c06e08bf62b5d45664c5c0d4cf
+-r--r--r--    1 pallspic  2019   483 Feb 16 07:03 b790863e556be43b2a3170f9ed168ad65641d3
+-r--r--r--    1 pallspic  2019  1657 Feb 16 07:03 3ed8e7c93e26797095cfa11473254b0acf5cf8
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    6 pallspic  2019   204 Feb 16 07:03 .
+
+./.git/objects/5f:
+total 32
+-r--r--r--    1 pallspic  2019   603 Feb 16 07:03 7556a4115bb18e49ba4fe1f1b9f800ea72d7c0
+-r--r--r--    1 pallspic  2019   262 Feb 16 07:03 69596ebcd7d2aaaa5e2955375a9f5485cee2c6
+-r--r--r--    1 pallspic  2019   540 Feb 16 07:03 0a2affb87f00372691741f962cd96c23aadba6
+-r--r--r--    1 pallspic  2019   635 Feb 16 07:03 428f748f9ffa444ffa150b6461018af5b97cb3
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    6 pallspic  2019   204 Feb 16 07:03 .
+
+./.git/objects/4b:
+total 16
+-r--r--r--    1 pallspic  2019  2596 Feb 16 07:03 f9c711d2c12b4d4bc9111bfcae5ed312c0c837
+-r--r--r--    1 pallspic  2019   803 Feb 16 07:03 32349cbfffeebaee66dd0dd92889153bac49d2
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+
+./.git/objects/4a:
+total 8
+-r--r--r--    1 pallspic  2019   199 Feb 16 07:03 fa5df7eaa5cc189b63f96da68cae3102acf523
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+
+./.git/objects/48:
+total 16
+-r--r--r--    1 pallspic  2019   358 Feb 16 07:03 2255b820e4b6443d143d250e33d25a5664308d
+-r--r--r--    1 pallspic  2019  3100 Feb 16 07:03 e7109bd6b90c4f195f51091ddc7f29c25e5563
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+
+./.git/objects/33:
+total 8
+-r--r--r--    1 pallspic  2019   174 Feb 16 07:03 402deb270db320524721752d1d2b47ed22ac75
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    3 pallspic  2019   102 Feb 16 07:03 .
+
+./.git/objects/22:
+total 16
+-r--r--r--    1 pallspic  2019   470 Feb 16 07:03 b51ca040d0536b564425bef7e3d95a90555142
+-r--r--r--    1 pallspic  2019   411 Feb 16 07:03 e3856fef57448f0706d0b92ee96e7e70699981
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .
+
+./.git/objects/1c:
+total 16
+-r--r--r--    1 pallspic  2019   320 Feb 16 07:03 100e7595d99b3fd931c84cdf03765889ab1d5b
+-r--r--r--    1 pallspic  2019   185 Feb 16 07:03 f93cdf4acfa6bf00533a0dd5a6df2d68bbbfd8
+drwxr-xr-x  130 pallspic  2019  4420 Feb 16 07:03 ..
+drwxr-xr-x    4 pallspic  2019   136 Feb 16 07:03 .

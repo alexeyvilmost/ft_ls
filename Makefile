@@ -6,11 +6,11 @@
 #    By: fcodi <fcodi@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/04/05 17:56:52 by fcodi             #+#    #+#              #
-#    Updated: 2019/07/21 12:52:13 by pallspic         ###   ########.fr        #
+#    Updated: 2020/02/24 18:13:35 by pallspic         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-.PHONY: all re clean fclean libft
+.PHONY: all re clean fclean libft a_out ls_out test
 
 CC = gcc
 
@@ -28,6 +28,10 @@ SRC = main.c ls_sort.c print.c comparators.c
 
 OBJ = $(SRC:.c=.o)
 
+TEST_FLAGS = -lRtra
+
+TEST_DIR = ~/
+
 all: libft $(NAME)
 
 $(NAME): $(LIB) $(OBJ)
@@ -35,6 +39,15 @@ $(NAME): $(LIB) $(OBJ)
 
 libft:
 	$(LIB_MAKE)
+
+a_out:
+	./$(NAME) $(TEST_FLAGS) $(TEST_DIR) > $@
+
+ls_out:
+	ls $(TEST_FLAGS) $(TEST_DIR) > $@
+
+test: all a_out ls_out
+	diff a_out ls_out
 
 %.a:
 	$(LIB_MAKE)
